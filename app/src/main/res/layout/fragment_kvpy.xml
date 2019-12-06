@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Home"
+            android:id="@+id/tvhome"
+            android:layout_marginRight="5dp"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Attempt Test"
+            android:id="@+id/tvtest"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About KVPY"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/KVPY1"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Pattern"
+                    android:textStyle="bold"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="No. of Questions"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="Subjects"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Part I"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text="Part II"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text="Total Marks"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Stream SA"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Mathematics"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="15"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="5"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="25"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Physics"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="15"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="5"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="25"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Chemistry"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="15"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="5"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="25"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Biology"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="15"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="5"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="25"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Stream SB/SX"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text=""
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Mathematics"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="20"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="10"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="40"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Physics"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="20"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="10"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="40"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Chemistry"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="20"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="10"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="40"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Biology"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="20"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="10"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="40"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KVPY Eligibility Criteria"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/KVPY2"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Syllabus:"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="For SA Stream"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/KVPY3"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="For SX Stream"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/KVPY4"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="For SB stream"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/KVPY5"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

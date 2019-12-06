@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+   <!-- <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />-->
+
+    <LinearLayout
+        android:id="@+id/llLoginDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/brown"
+            android:text="@string/logged_in_as"/>
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_profile_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_settings"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@drawable/text_color"
+        android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tvReferralCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/referral_code"
+            android:background="@drawable/edit_text_box"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@drawable/text_color"
+            android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@drawable/text_color"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@drawable/text_color"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_rate_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_us"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@drawable/text_color"
+        android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Us"
+            android:background="@drawable/edit_text_box"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@drawable/text_color"
+            android:padding="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_signin_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/text_color"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/nav_item_sign_out"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/brown"
+        android:text="@string/auth_name"/>
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+</ScrollView>

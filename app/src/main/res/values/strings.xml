@@ -1,0 +1,1645 @@
+<resources>
+    <string name="app_name">Sabakuch E-Mock Paper</string>
+    <!--    http://www.androidhub4you.com/2013/04/dynamic-radio-button-demo-in-android.html-->
+
+    <string name="auth_name">Copyright Of Sabakuch.com</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- navigation drawer item labels  -->
+    <string name="nav_item_select_exams">Select Exams</string>
+    <string name="nav_item_dashboard">My Dashboard</string>
+    <string name="nav_item_profile">Profile Settings</string>
+    <string name="nav_item_sign_out">Sign Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="error_no_connection">Cannot connect to server. Please, check your Internet connectivity.</string>
+    <string name="server_not_responding">Server is not responding.</string>
+    <string name="facebook_app_id">347116518958297</string>
+    <string name="network_error">Internet Connection Failed!</string>
+    <string name="loader_text">Processing..</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_select_exams</item>
+        <item>@string/nav_item_dashboard</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_sign_out</item>
+    </string-array>
+
+    <!--<string name="select_exams">Select Exams</string>-->
+    <string name="list_of_exams">LIST OF EXAMS</string>
+    <string name="instruction">Instructions</string>
+    <string name="result">Result</string>
+    <string name="online_test">Online Test</string>
+    <string name="test_review">Test Review</string>
+    <string name="select_levels">Select Level</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="profile_settings">Profile Settings</string>
+
+    <string name="referral_hint">Enter you referral code here</string>
+    <string name="mobile_number_hint">Enter your mobile number</string>
+    <string name="digit_hint">9876543210</string>
+    <string name="apply">Apply</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="resend">Resend</string>
+    <string name="fa_arrow_circle_o_right">&#xf0a9;</string>
+    <string name="fa_remove">&#xf00d;</string>
+    <string name="fa_edit">&#xf044;</string>
+    <string name="logged_in_as">Logged in as...</string>
+    <string name="referral_code">Referral Code</string>
+
+    <string name="enter_otp_here">Enter OTP Here</string>
+    <string name="about_us">About Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="all_question_are_mandatory">Please attempt all questions.</string>
+    <string name="start_test">Start Test</string>
+    <string name="_finish">Finish</string>
+    <string name="solution">Solution</string>
+    <string name="time_taken">Time Taken</string>
+    <string name="time_taken_">Time Taken :</string>
+    <string name="click_here_for_test_review">Click here for Details!</string>
+    <string name="time_remaining">Time Remaining:-</string>
+    <!--<string name="please_read_the_instruction_carefully">Please read the instructions carefully before starting the test.</string>-->
+    <string name="test_will_submit_automatically">Test will get submit automatically when the time expire.</string>
+    <string name="click_the_start_button">Click the start button to start the test</string>
+    <string name="best_of_luck">BEST OF LUCK!</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email Address</string>
+    <string name="email_hint">E-mail</string>
+    <string name="username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_login">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="please_enter_username">Please enter username.</string>
+    <string name="please_enter_email">Please enter email address.</string>
+    <string name="please_create_playlist">Please create playlist first.</string>
+    <string name="please_enter_password">Please enter password.</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="new_on_sabakuch"><u>New on Sabakuch? Sign-up</u></string>
+    <string name="login_via">Login via</string>
+    <string name="facebook"><u>Facebook</u></string>
+    <string name="twitter"><u>Twitter</u></string>
+    <string name="google_plus"><u>Google Plus</u></string>
+    <string name="work_in_progress">Work in progress.</string>
+    <string name="login_or_signup">LOGIN OR SIGN-UP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <!--Signup Screen-->
+    <string name="fa_arrow_right">&#xf061;</string>
+
+    <string name="signup">Sign-up</string>
+    <string name="first_name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="user_name">User Name</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dob">D.O.B</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="answer">Answer</string>
+    <string name="i_agree_to_terms"><u>I agree to the terms and conditions</u></string>
+    <string name="submit">Submit</string>
+    <string name="create">Create</string>
+
+    <string name="home">Home</string>
+    <string name="statistics">Statistics</string>
+    <string name="notification">Notification</string>
+    <string name="settings">Settings</string>
+    <string name="please_login_to_continue">Please login to continue.</string>
+    <string name="please_login_to_access_this_feature">Please login to access this feature.</string>
+    <string name="are_you_sure_to_quit">Are you sure you want to quit?</string>
+    <string name="this_paper_would_be_available">This paper would be available 10th March, 2017 onwards</string>
+    <string name="generate_OTP">Generate OTP</string>
+    <string name="edit">Edit</string>
+    <string name="send">Send</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="email">Email</string>
+    <string name="comments">Comments</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="sabakuch_name"><b>Sabakuch India LLP</b></string>
+    <string name="address">Address</string>
+    <string name="sabakuch_address">F-26/1 Shankar Market</string>
+    <string name="sabakuch_address_place">Connaught Place, New Delhi-110001</string>
+    <string name="queries_links">info@sabakuch.com</string>
+    <string name="name">Name</string>
+    <string name="input_hint">Enter from (0-9) number</string>
+
+    <string name="fa_caret_down">&#xf0d7;</string>
+    <string name="fa_calendar_check_o">&#xf274;</string>
+
+    <string name="fa_check_square_o">&#xf046;</string>
+    <string name="fa_square_o">&#xf096;</string>
+    <string name="fa_window_close_o">&#xf2d4;</string>
+
+    <string name="fa_times_circle_o">&#xf05c;</string>
+    <string name="fa_check_circle_o">&#xf05d;</string>
+    <string name="fa_circle_o">&#xf10c;</string>
+
+    <string name="fa_check">&#xf00c;</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-3987143160667404~9572546306</string>
+    <string name="banner_home_footer">ca-app-pub-3987143160667404/4433159443</string>
+    <string name="interstitial_full_screen">ca-app-pub-3987143160667404/2836614509</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SSC_CPO1">SSC CPO (Staff Selection Commission Central Police Organisation) is conducted by SSC on National level to fill required number of candidates to the post of Sub Inspectors in various Central Government Police Organizations like CRPF, ITBP, CBI, SSB, CISF, BSF and SI in Delhi Police etc. Due to its National level approach this test is taken by a large number of aspirants who wants to join these organizations on the priority basis</string>
+    <string name="SSC_CPO2">The SSC CPO exam will take place in 2 stages – Paper I and Paper II. After you qualify both the Papers, you will need to go through a mandatory Physical Endurance Test before you are conducted. But your selection will be based on SSC CPO Paper I &amp; II.</string>
+    <string name="SSC_CPO3">
+        • Questions in both papers will be of Objective Multiple Choice Type.\n\n•
+        Questions will be set in Hindi and English in Parts A, B and C of Paper I.\n\n•
+        There will be negative marking of 0.25 marks for each wrong answer in Paper-I &amp; Paper-II.\n\n•
+        You are, therefore, advised to keep this in mind while answering the questions.\n\n•
+        The Commission may fix qualifying marks in Paper-II later, but as of now, it is just of qualifying nature.\n\n•
+        You may also note that as per the official notification of SSC, it has the right to add additional stages to the selection process.</string>
+    <string name="SSC_CPO4"><b>Analogy:</b> 6-8 questions
+        \nSemantic Analogy, Symbolic/Number Analogy, Figural Analogy, Letter &amp; Number, Image &amp; Meaning based.
+        \n\n<b>Classification:</b> 6-7 questions
+        \nSemantic Classification, Symbolic/Number Classification, Figural Classification.
+        \n\n<b>Series:</b> 3-5 questions
+        \nSemantic Series, Number Series, Figural Series, Mixed Series, Series based on General Knowledge.
+        \n\n<b>Coding Decoding:</b> 3-4 questions
+        \nCoding by analogy, coding by words, coding-decoding by letter shifting, etc.
+        \n\n<b>Blood Relations:</b> 1-3 questions
+        \nFamily Tree, Coded Blood Relation.
+        \n\n<b>Ordering &amp; Ranking:</b> 1-2 questions
+        \n\n<b>Alphabet or Word Test:</b> 3-5 questions
+        \nMatrix, Jumbled words, sequence &amp; word formation, Suffix etc.
+        \n\n<b>Direction &amp; Distance:</b> 1-3 questions
+        \nProblem based on route &amp; network.
+        \n\n<b>Venn Diagrams:</b> 4-5 questions
+        \nQuestion Type: Syllogisms, Logical, Venn Diagrams, etc.
+        \n\n<b>Missing Number:</b> 2-3 questions
+        \nMatrix &amp; Diagrams (Number &amp; Alphabet based)
+        \n\n<b>Puzzles:</b> 2-3 questions
+        \nSeating Arrangement, Circular Arrangement, Linear Arrangement, Double Line Up etc.
+        \n\n<b>Data Sufficiency:</b> 5-7 questions
+        \nArithmetic Operations, Cubes &amp; Dices, etc.
+        \n\n<b>Non-Verbal Reasoning:</b> 5-7 questions
+        \nCubes, Dices, Paper Folding, Counting Figures.
+    </string>
+
+
+    <string name="SSC_CPO5"><b>Polity:</b> 3-5 questions
+        \nConstitution of India, Judiciary, Government Portfolios etc.
+        \n\n<b>Science &amp; Technology:</b> 10-13 questions
+        \nBiology, Physics, Chemistry, Environment etc.
+        \n\n<b>History:</b> 6-7 questions
+        \nIndian Freedom Struggle, Ancient &amp; Medieval History.
+        \n\n<b>Geography:</b> 5-6 questions
+        \nIndian Geography &amp; World Geography.
+        \n\n<b>Economy:</b> 4-5 questions
+        \nIndian &amp; World Economy, Economic Organization.
+        \n\n<b>National &amp; International Affairs:</b> 10-11 questions
+        \nNational &amp; International News, Days &amp; Events, Government Policies &amp; Schemes, etc.
+    </string>
+
+
+    <string name="SSC_CPO6"><b>Simplification:</b> 4-5 questions
+        \nBODMAS, Fraction, Decimal, Ratio &amp; Proportion, etc.
+        \n\n<b>Ratio &amp; Proportions:</b> 3-5 questions
+        \nSimple Ratios, Compound Ratios, Direct &amp; Indirect Proportion etc.
+        \n\n<b>Mixture Problems:</b> 0-2 questions
+        \n\n<b>Number System:</b> 1-3 questions
+        \nLCM, HCF, Integers, Rational Irrational Numbers.
+        \n\n<b>Algebra:</b> 4-6 questions
+        \nIdentities, Linear Equations, Quadratic Equations, etc.
+        \n\n<b>Profit &amp; Loss:</b> 4-5 questions
+        \nProblem related to Dishonest Dealings, Successive Selling, Partnership &amp; Discount and MP.
+        \n\n<b>Average:</b> 2-5 questions
+        \nAverage Weight/Height/Age/Marks, Average Money Expenditure, Average Temperature etc.
+        \n\n<b>Percentage:</b> 1-2 questions
+        \nCalculation-oriented basic percentage Questions.
+        \n\n<b>Time and Work:</b> 1-2 questions
+        \nWork Efficiency, Work &amp; Wages, Pipe &amp; Cistern, Time &amp; Work.
+        \n\n<b>Interest:</b> 1-2 questions
+        \nSimple, Compound, Interest etc.
+        \n\n<b>Speed, Time &amp; Distance:</b> 1-3 questions
+        \nProblems on Trains, Boats, Rivers, Relative Speed, etc.
+        \n\n<b>Mensuration:</b> 3-5 questions
+        \nProblems related to area &amp; volume.
+        \n\n<b>Geometry:</b> 4-6 questions
+        \nTriangles, Circles, Chords, Quadrilaterals, etc.
+        \n\n<b>Trigonometry:</b> 3-5 questions
+        \nHeights and Distances, Trigonometric Ratios and Identities etc.
+        \n\n<b>Data Interpretation:</b> 4-5 questions
+        \nPie Chart, Line Chart, Bar Graph, Table.
+    </string>
+
+
+    <string name="SSC_CPO7"><b>Grammar Section:</b> 8-10 questions
+        \nError Spotting, Phrase Replacement, Fill in the Blanks etc.
+        \n\n<b>Vocabulary:</b> 20-30 questions
+        \nCloze Test, Synonym Antonym, Spellings, Idiom Meaning, One Word Replacement.
+        \n\n<b>Reading Comprehension:</b> 5-10 questions
+        \nThe passage will focus on topics like moral stories, humanities (medicine, psychology, arts, human behaviour, etc.), social issues economy, business, etc.
+    </string>
+
+
+    <string name="SSC_CPO8">Paper 2 of SSC CPO will consist of English only. Also, this exam will be a descriptive exam. The questions in this components will be designed to test your understanding and knowledge of English Language (Vocabulary, grammar and Spellings) and will be based on:
+        \n1.Error recognition\n2.Filling in the blanks (using verbs, preposition, articles etc)\n3.Sentence Structure\n4.Synonyms &amp; Antonyms\n5.Sentence Completion\n6.Phrases and Idiomatic use of Words\n7.Comprehension, etc.
+    </string>
+
+
+    <string name="Current">Having information about current affairs can actually boost your decision making skills. For example, you can invest in an industry or a firm with no visible prospects of earning profits because you don’t know what is happening in the industry or company.
+        \n\nCurrent affairs play a crucial role for students when they want to prepare for competitive exams. And why only competitive exams, even exams conducted for jobs and Interviews also contain questions on general awareness these days.
+        \n\nThis certainly tells the importance of current affairs in the life of students.
+        \n\nApart from academic knowledge, students need to be aware of current affairs as most exams and govt. jobs related interviews emphasize on the level of the candidate on how much he is aware about the country.
+
+    </string>
+    <string name="GK">General knowledge is a basic element to improve our mind power. It is a part of Education.Gk also helps us to know the things which is happening in and around our surroundings. It is the form of updated. That is why most of Examination include GK as a common paper.
+        \n\nGeneral knowledge is very useful in terms of personal, Academic and Professional levels. General knowledge is a key concept for any hiring process either it could be Banking, IT or other professions. In day today life also General Knowledge is very useful as it is all about common things.
+        \n\nGeneral knowledge is an important aspect of human life. If you don’t know what is happening around you, you might come off as stupid and can bar you from being a part of some healthy discussions. Thus, lack of general knowledge can actually constrain your social interaction. A little knowledge of various topics can greatly help you initiate a conversation with people, finding a topic with them having some amount of mastery in that particular topic. At the end of the day, both of you will increase your knowledge.
+
+
+
+
+    </string>
+
+
+    <string name="AIIMS1">All India Institute of Medical Science (AIIMS) conducts MBBS entrance exam for UG aspirants seeking admission to MBBS courses. The exam is conducted on national level at specific institutes enlisted under AIIMS.
+    </string>
+
+    <string name="AIIMS2"><li>The exam pattern of AIIMS MBBS 2018 is such that the question paper will contain 200 multiple choice questions.</li>
+        \n<li>The questions will be based on topics from Physics, Chemistry, Biology and General Awareness covered in class 11 and class 12.</li>
+        \n<li>Distribution of questions in AIIMS MBBS 2018 exam will be as follows:</li>
+    </string>
+
+
+    <string name="AIIMS3"><li>Against every correct answer, aspirants will be awarded 1 mark whereas for every wrong answer 1/3 marks will be deducted.</li>
+        \n<li>Besides, no marks are given for any un-attempted questions.</li>
+
+    </string>
+
+
+    <string name="AIIMS4">Syllabus of AIIMS MBBS 2018 will cover topics from Physics, Chemistry, Biology studied in class 11 and class 12. The conducting body will not add anything to this syllabus. Subject-wise syllabus of entrance exam is given in tables below:
+        \n<li><b>Physics Syllabus:</b>  Optic Ray, Heat and Thermodynamics, Magnetic Effect of Current and Magnetism, Gravitation, Electrostatics, Wave Motion, Solids and semi-conductor Devices, Laws of Motion, X-Rays and Modern Physics: (Atomic Models) &amp; Current Electricity.</li>
+        \n<li><b>Chemistry Syllabus:</b>  Alkenes and Alkynes, General Organic Chemistry, Alkanes, s-block Elements, Chemical Thermodynamics, Transition Elements (d and f Block) and Electrochemistry, General Organic Chemistry, Chemical Equilibrium, p-block Elements, Chemical Bonding and Mole Concepts.</li>
+        \n<li><b>Biology Syllabus:</b> Genetics, Human Health Diseases, Cell, Plantae, Mineral Nutrients, Plant water relation, Ecology, Origin of Life, Plant Morphology, Cell Division, Cell Respiration and Photosynthesis.</li>
+
+
+    </string>
+
+
+    <string name="AIIMS5"><li>As per a notification dated March 6, 2018, all AIIMS MBBS applicants who could not complete their application form or did not make the necessary changes before the application last date of March 5, they could do so between March 8 and March 12, 2018. Only those candidates who submitted the fee on time were able to avail this facility to complete the AIIMS MBBS 2018 Application Form.</li>
+         \n\n<li>For the first time, AIIMS MBBS was held on two exam dates - Saturday, May 26 and Sunday, May 27, 2018. As per the previous information released by the institute in September 2017, only one exam date had been fixed, that of May 27. However, the notification released on February 1 revealed that instead of two slots, the exam will be held in four slots across the two days.</li>
+         \n\n<li>Till 2017, AIIMS MBBS provided admissions to 707 seats across a total of seven AIIMS institutes. From 2018 onwards, admissions will also be offered to AIIMS Guntur and AIIMS Nagpur, taking the total number of AIIMS institutes to nine. AIIMS Guntur (which will run temporarily at Siddartha Medical College, Vijayawada for this year) is the first AIIMS to be established in Andhra Pradesh. Similarly, AIIMS Nagpur, (which will run temporarily at Government Medical College, Nagpur) is the first to be established in Maharashtra.</li>
+         \n\n<li>The number of seats offered in AIIMS MBBS has increased with the addition of the two new campuses. Both the AIIMS Guntur and AIIMS Nagpur campuses will offer 50 seats each, taking the total AIIMS MBBS seats to 807 from 707.</li>
+    </string>
+
+
+    <string name="Police1">The Staff Selection Commission (SSC) will conduct an open examination for recruitment to posts of Constable (GD) in BSF, CRPF, CISF, ITBP, SSB, NIA and SSF etc. Under this recruitment process, candidates who applied will go through various tests.
+        \n\nSo, they must have the proper knowledge of tests which they will have to face at each different stages. There is more and more competition increasing day by day, its become challenging as hard nut to crack. Now, here we’re providing prescribed latest scheme of examination and whole selection procedure, which may helps the aspirants to chase this challenge.
+    </string>
+
+    <string name="Police2">1.Physical Standard Test (PST)
+        \n2.Physical Efficiency Test (PET)
+        \n3.Written Examination
+        \n4.Medical Examination
+
+    </string>
+
+    <string name="Police3">Physical standards laid down for the post of Constable are –
+         \na.<b>Height:</b>
+         \nFor Males : 170cms
+         \nFor Females : 157 cms
+         \nb.<b>Chest:</b>
+         \nFor Males only – Unexpanded : 80 cms
+         \n– Expanded : Min expansion 5 cms.
+         \nc.<b>Weight:</b>
+         \nFor Males and Females : Proportionate to height and age as per medical standards.
+
+
+    </string>
+
+    <string name="Police4">a.<b>Race:</b>
+          \nFor Males : 5 Kms in 24 Minutes
+          \nFor Females : 1.6 Kms in 8½ Minutes
+          \n<b>For Ladakh Region :</b>
+          \nb.<b>Race:</b>
+          \nFor Males : 1 Mile in 6½ Minutes
+          \nFor Females : 800 Meters in 4 Minutes
+
+
+    </string>
+
+
+    <string name="Police5"><li>The written exam will be multiple choice objective type.</li>
+      \n<li>Candidates have to choose one correct answer from given four answers (A, B, C, D) for one particular question.</li>
+      \n<li>The written examination will consist of one objective type paper containing 100 questions carrying 100 marks.</li>
+      \n<li>The time duration will be allowed of 02:00 hours (120 minutes).</li>
+      \n<li>The questions in all the components will be of Matriculation level.</li>
+
+
+    </string>
+
+    <string name="Police6"><b>General Intelligence &amp; Reasoning :</b> Analytical aptitude and ability to observe and distinguish patterns will be tested through questions principally of non-verbal type. This component may include questions on analogies, similarities and differences, spatial visualization, spatial orientation, visual memory, discrimination, observation, relationship concepts, arithmetical reasoning and figural classification, arithmetic number series, non-verbal series, coding and decoding, etc.
+          \n\n<b>General Knowledge and General Awareness :</b> Questions in this component will be aimed at testing the candidates general awareness of the environment around him. Questions will also be designed to test knowledge of current events and of such matters of every day observations and experience in their scientific aspect as may be expected of any educated person. The test will also include questions relating to India and its neighboring countries especially pertaining to sports, History, Culture, Geography, Economic Scene, General Polity, Indian Constitution, scientific Research etc. These Questions will be such that they do not require a special study of any discipline.
+          \n\n<b>Elementary Mathematics :</b> This paper will include questions on problems relating to Number Systems, Computation of Whole Numbers, Decimals and Fractions and relationship between Numbers, Fundamental arithmetical operations, Percentages, Ratio and Proportion, Averages, Interest, Profit and Loss, Discount, Mensuration, Time and Distance, Ratio and Time, Time and Work, etc.
+          \n\n<b>English/ Hindi :</b> Candidates’ ability to understand basic English/ Hindi, his basic comprehension would be tested.
+          \n\n<b>English :</b> Spot the Error, Fill in the Blanks, Synonyms/Homonyms, Antonyms, Spellings/Detecting Mis-spelt words, Idioms &amp; Phrases, One word substitution, Improvement of Sentences, Active/Passive Voice of Verbs, Conversion into Direct/Indirect narration, Shuffling of Sentence parts, Shuffling of Sentences in a passage, Cloze Passage, Comprehension Passage.
+          \n\n<b>Hindi :</b> वर्तनी की सामान्य अशुद्धियाँ तथा शब्दों के शब्द रूप, शब्दों के स्त्रीलिंग, बहुवचन, किसी वाक्य को अन्य लिंग में परिवर्तन, मुहावरा व उनका अर्थ, अशुद्ध वाक्यों के शुद्ध रूप, विलोमार्थी शब्द, समानार्थी व पर्यायवाची शब्द, अनेक शब्दों के लिए एक शब्द, कहावतें व लोकोक्तियां के अर्थ, संधि विच्छेद, क्रिया से भाववाचक संज्ञा बनाना, रचना एवं रचयिता इत्यादि|
+
+
+    </string>
+
+
+    <string name="NTSE1">National Talent Search Examination or NTSE Exam is a national level scholarship test conducted by the National Council of Educational Research and Training or NCERT for granting scholarships to the meritorious students studying in class 10th.
+        \n\n<b>NTSE is conducted in two stages:</b>
+        \n\n<b>Stage 1:</b> It is a State Level Exam conducted by different States and Union Territories. Students qualifying the Stage 1 of NTSE Exam will be eligible to appear for Stage 2.
+        \n\n<b>Stage 2:</b> It is a National Level Exam conducted by National Council of Educational Research and Training (NCERT).
+    </string>
+
+
+    <string name="NTSE2">Around 1000 scholarships are awarded for each stage of education. These stages are:
+        \n1.For Class XI to Class XII, a scholarship of Rs.1250/- per month is provided.
+        \n2.For Undergraduates and Postgraduates, a scholarship of Rs.2000/- per month is provided.
+        \n3.For Ph.D., the scholarship amount is fixed in accordance with the UGC norms.
+    </string>
+
+
+    <string name="KVPY1">The <b>Kishore Vaigyanik Protsahan Yojana (KVPY)</b> is an on-going National Program of Fellowship in Basic Sciences, initiated and funded by the Department of Science and Technology, Government of India, to attract exceptionally highly motivated students for pursuing basic science courses and research career in science.
+        \n\nThe objective of the program is to identify students with talent and aptitude for research; help them realize their academic potential; encourage them to take up research careers in Science, and ensure the growth of the best scientific minds for research and development in the country.
+        \n\nSelection of the students is made from those studying in XI standard to 1st year of any undergraduate Program in Basic Sciences namely B.Sc./B.S./B.Stat./B.Math./Int. M.Sc./M.S. in Mathematics, Physics, Chemistry and Biology having aptitude for scientific research. Special groups / Committees are set up at IISc to screen the applications and conduct an aptitude test at various centres in the country. Based on the performance in the aptitude test, short-listed students are called for an interview which is the final stage of the selection procedure. For receiving a fellowship, both aptitude test and interview marks are considered.
+        \n\n<b>Exam Mode:</b> The aptitude test will be conducted through online (Computer Based Test) mode.
+        \n\n<b>Date &amp; Shift:</b> It will be organized in the first week of November 2018. It will be started from 9:00 AM to 12:30 PM for Stream SA. For Stream SB/SX, the exam will begin from 2 PM to 5 PM.
+        \n\n<b>Medium of Question Paper:</b> The question paper will be asked both in English &amp; Hindi Language.
+        \n\n<b>Type of Questions:</b> It is a multiple choice type question paper. All the questions are compulsory to attempt in Stream SA. There is an option to attempt any three sections in PART I &amp; any two sections in PART II in Stream SB/SX.
+        \n\n<b>Duration of Exam:</b> The duration of the aptitude test will be three hours.
+        \n\n<b>Sections:</b> The question paper will contain two sections: PART I &amp; PART II. There will be four sections in PART I &amp; PART II.
+        \n\n<b>Total Marks:</b> The question paper will consist of 100 marks.
+    </string>
+
+
+    <string name="KVPY2" formatted="false">There are 3 streams for which KVPY is conducted - SA, SX and SB. The eligibility criteria for KVPY 2017-18 for these streams are mentioned below.
+        \n\n<li><b>SA -</b> Candidates must be studying science stream in class 11. He should have secured a minimum of 75% in math and science subjects in class 10th board exams. For SC, ST and PWD, the minimum required marks is 65%.</li>
+        \n\n<li><b>SX -</b> Candidates must be studying science stream in class 12. He should have secured a minimum of 75% in math and science subjects in class 10th board exams. For SC, ST and PWD, the minimum required marks is 65%. If awarded a scholarship, the candidate must secure a minimum of 60% in math and science subjects in class 12th board exams to take up the fellowship. For SC, ST and PWD, the minimum required marks is 50%.</li>
+        \n\n<li><b>SB -</b> Candidates must be studying in the 1s year of Bachelor degree in any of the Basic Science courses. He should have secured a minimum of 60% in math and science subjects in class 12th board exams. For SC, ST and PWD, the minimum required marks is 50%. If awarded a scholarship, the candidate must secure a minimum of 60% in the first year of his undergraduate course to take up the fellowship. For SC, ST and PWD, the minimum required marks is 50%.</li>
+    </string>
+
+
+    <string name="KVPY3"><b>Physics:</b> Applications in Daily Life, Kinematics, Laws of Motion, Work, Energy and Power, Physical World and Measurement, Gravitation, Thermodynamics, Magnetic Effects of Current, Sources of Energy, Reflection, Refraction, Electromagnetic Induction.
+        \n\n<b>Chemistry:</b> Thermodynamics, States of Matter: Gases and Liquids, Classification of Elements and Periodicity in Properties, Environmental Chemistry, Chemical Reactions, Metals and Nonmetals, Periodic Classification of Elements, Carbon Compounds, Acids, Bases and Salts, Basic Concepts of Chemistry.
+        \n\n<b>Mathematics:</b> Coordinate Geometry, Mathematical Reasoning, Statistics and Probability, Trigonometric Functions, Real Numbers, Polynomials, Geometry, Introduction to Trigonometry, Statistics, Quadratic Equations, Probability, Surface Areas and Volumes.
+        \n\n<b>Biology:</b> Plant Physiology, Diversity of Living Organisms, Cell: Structure and Function, Human Physiology, Control and Coordination in Animals and Plants, Heredity and Evolution, Reproduction, Life Processes, Our Environment.
+
+    </string>
+
+
+    <string name="KVPY4"><b>Physics:</b> Thermodynamics, Electrostatics, Refraction, Current Electricity, Electromagnetic Induction and Alternating Current, Magnetic Effects of Current, Reflection of Light, Electromagnetic Induction, Kinematics, Work, Energy and Power, Sources of Energy, Physical World and Measurement, Gravitation, Laws of Motion.
+        \n\n<b>Chemistry:</b> Chemical Reactions, Environmental Chemistry, Solid State, Electrochemistry, Chemical Kinetics, Isolation of Elements, Periodic Classification of Elements, Surface Chemistry, States of Matter: Gases and Liquids, Metals and Non-metals, Carbon Compounds, Basic Concepts of Chemistry, Thermodynamics, Classification of Elements and Periodicity in Properties.
+        \n\n<b>Mathematics:</b> Trigonometric Functions, Geometry, Linear Programming, Vectors and 3D Geometry, Calculus, Relations and Functions, Coordinate Geometry, Mathematical Reasoning, Real Number, Polynomials, Introduction to Trigonometry, Surface Areas and Volumes, Statistics and Quadratic Equations, Probability, Statistics and Probability.
+        \n\n<b>Biology:</b> Human Physiology, Biology and Human Welfare, Control and Coordination in Animals and Plants, Ecology and Environment, Cell: Structure and Function, Genetics and Evolution, Life Processes, Plant Physiology, Diversity of Living Organisms, Reproduction.
+
+    </string>
+
+
+    <string name="KVPY5"><b>Physics:</b> Thermodynamics, Reflection, Electrostatics, Current Electricity, Electromagnetic Induction and Alternating Current, Waves and Optics, Electricity and Magnetism, Electrostatics and Thermal Physics, Electromagnetic Induction, Physical World and Measurement, Sources of Energy, Refraction and its Applications in Daily Life, Kinematics, Laws of Motion, Magnetic Effects of Current, Work, Energy and Power, Gravitation.
+        \n\n<b>Chemistry:</b> Metals and Nonmetals, Environmental Chemistry, Solid State, Electrochemistry, Chemical Kinetics, Isolation of Elements, Surface Chemistry, Chemical Bonding, Chemistry of Noble Gases, Structure and Bonding, Alkenes, Cycloalkenes, Dienes and Alkynes, Thermodynamics, Chemical Reactions, Basic Concepts of Chemistry, Periodic Classification of Elements, Carbon Compounds, Acids, Bases and Salts, States of Matter: Gases and Liquids, Classification of Elements and Periodicity in Properties.
+        \n\n<b>Mathematics:</b> Coordinate Geometry, Mathematical Reasoning, Statistics and Probability, Trigonometric Functions, Linear Programming, Relations and Functions, Analytical Geometry in Two Dimensions, Vector Algebra, Evaluation of Integrals, Statistics, Surface Areas and Volumes, Vectors and 3D Geometry, Calculus, Real Number, Polynomials, Geometry, Introduction to Trigonometry, Quadratic Equations, Probability.
+        \n\n<b>Biology:</b> Plant Physiology, Reproduction, Diversity of Living Organisms, Cell: Structure and Function, Biology and Human Welfare, Biotechnology, Genetics, Life Processes, Human Physiology, Control and Coordination in Animals and Plants, Genetics and Evolution, Our Environment, Ecology and Environment.
+
+
+
+    </string>
+
+    <string name="NTSE5"><li>Only Class 10th students are eligible to write NTSE Exam paper provided the student is studying in a School recognized by the government.</li>
+        \n<li>The Student should be below 18 years of age.</li>
+        \n<li>Previously employed students are not eligible to write NTSE paper.</li>
+        \n<li>The Student has never applied for class 10th exam before.</li>
+        \n<li>Open Distance Learning (ODL) Students are also eligible.</li>
+    </string>
+
+
+    <string name="NTSE6"><b>NTSE 2018 Exam Pattern for Stage 1</b>
+        \n\n<li>Stage 1 of NTSE is a pen and paper based/ offline test. It is a state-level exam.</li>
+        \n\n<li>The question paper will be segregated into 2 sections- Mental Ability Test (MAT) and Scholastic Aptitude Test (SAT).</li>
+        \n\n<li>The second section i.e. SAT will be further divided into 2 parts- Language Test and Sciences, Mathematics &amp; Social Sciences.</li>
+        \n\n<li>The medium of the language of the exam is English or Hindi.</li>
+        \n\n<li>It consists of 200 objective questions to be solved within a duration of 180 minutes.</li>
+        \n\n<li>The maximum marks an aspirant can score in Stage 1 are 200.</li>
+        \n\n<li>Students must select the most appropriate answer out of 4 alternative options.</li>
+        \n\n<li>They must note that negative marking scheme will not be applicable for NTSE 2018 Stage 1 exam.</li>
+    </string>
+
+
+    <string name="NTSE7"><b>NTSE 2018 Exam Pattern for Stage 2</b>
+    \n\n<li>Stage 2 of NTSE is conducted at National Level, where shortlisted students from Stage-I (State-level) exam appear to compete for the scholarship.</li>
+    \n\n<li>The paper is divided into two parts – MAT and SAT, like that in Stage-I.</li>
+    \n\n<li>There will be a total of 200 objective-type questions.</li>
+    \n\n<li>However, 1/3 marks are deducted for every wrong answer marked by the candidate at this Stage.</li>
+    \n\n<li>No marks will be deducted for unattempted questions.</li>
+    \n\n<li>The test is to be completed in 180 minutes.</li>
+    </string>
+
+
+    <string name="NTSE8"><li>NTSE syllabus will be based on Senior Secondary or Class 10 level.</li>
+        \n<li>It will be as decided by NCERT for every section.</li>
+        \n\n<b>Mental Ability :</b> Alphabets and Number Test, Word Problems, Analogy (Non-Verbal and Verbal), Water and Mirror Images, Blood Relations, Venn Diagrams, Direction Sense, Series (Verbal and Non-Verbal), Calendar, Time &amp; Clock, Ranking &amp; Arrangements, Coding-Decoding, Paper cutting &amp; Folding, Cube &amp; Dice, Missing Character, Embedded Figure, Mathematical Operations.
+        \n\n<b>Language Test :</b> One word substitution, Paragraph and sentence completion, Reading comprehension, Rearrangement of jumbled words, Synonyms &amp; Antonyms.
+        \n\n<b>Mathematics :</b> Basic Geometry, Trigonometry, Coordinate Geometry, Triangles, Circle, Simple &amp; Compound Interest, Direct and Inverse Variations, Surface Areas and Volume, Exponents, Square &amp; Cube Roots, Linear Equation, Rational Numbers, Mensuration, Quadratic Equations, Number System, Probability and Statistics, Percentage &amp; its Application, Playing with Numbers.
+        \n\n<b>Science :</b> Acid Bases and Salts, Work and Energy, Air, Water, Cellular Level of Organization, Structure of Atom, Carbon and its Compound, Sound, Diversity in Living organisms, Soil, Fibers and Plastics, Common diseases, Food Production &amp;Management, Reproduction, Human Body, Periodic Classification of Elements, Heredity and Evolution, Environment, Life Processes, Motion and Force, Light, Micro-Organisms, Magnetic &amp; Electricity at Work, Measurement, Metals &amp; Non-Metals.
+        \n\n<b>Social Science :</b> Agriculture, World History, Atmosphere, Water Resources, Biosphere, Vedic Period, British Raj, Union Government, Democracy and Elections, UN and International Agencies, Diversity and Livelihood, Mughal Empire, Early Medieval Period, Mauryas, Early States, Judiary, Eighteen Century Political Formation, Delhi Sultanate, French Revolution, Solar system, India and its Neighbors, Population Resources and Development, Indian Constitution, Popular Movements and Social Reforms, Indian Freedom Struggle, Our country- India, Indus Valley Civilization, Natural Vegetation, Industrial Revolution, Nationalism in Various Countries, Internal Structure of the Earth and Rocks, Motion of the Earth, Introduction and Sources of Ancient Indian History, Government, Jainism, Buddhism and Conquerors from Distant Lands.
+    </string>
+
+    <string name="CAT1"><b>CAT Exam (Common Admission Test)</b> is a computer based selection test conducted by the <b>Indian Institutes of Management (IIMs)</b> as a prerequisite for their business administration programs. Apart from the IIMs, the CAT is also a prerequisite for admissions into numerous other prestigious management colleges across India which includes institutes like <b>S.P Jain Institute of Management and Research (SPJIMR), Faculty of Management Studies (FMS), Management Development Institute (Gurgaon), Institute of Management Technology (IMT), Jamnalal Bajaj Institute of Management Studies (JBIMS), International Management Institute (IMI), National Institute of Industrial Engineering (NITIE)</b> and several others.
+        \n\nThe CAT exam is conducted every year by IIM’s on rotational basis and the CAT exam dates are generally declared in the month of August every year by the conducting IIM.
+
+
+    </string>
+
+    <string name="CAT2">The candidate must fulfill the below mentioned criteria’s:
+         \n\n<li>Hold a Bachelor’s Degree, with at least 50% marks or equivalent CGPA. The students belonging to Scheduled Caste (SC), Scheduled Tribe (ST) and Persons with Disability (PWD)/Differently Abled (DA) category candidates must have at least 45% marks.</li>
+         \n\n<li>The degree has be awarded by any of the Universities incorporated by an act of the central or state legislature in India or other educational institutions established by an act of Parliament or declared to be deemed as a University under Section 3 of the UGC Act, 1956, or possess an equivalent qualification recognized by the Ministry of HRD, Government of India.</li>
+         \n\n<li>Applicants who are appearing for the final year of bachelor’s degree/equivalent qualification examination and the candidates who have completed degree requirements and are awaiting results are also eligible to apply. If selected, such candidates will be allowed to join the program provisionally, only if she / he submits a certificate from the Principal / Registrar of her/his College / Institute (issued on or before June 30, 2018) stating that the candidate has completed all the requirements for obtaining the bachelor’s degree / equivalent qualification on the date of the issue of the certificate.</li>
+         \n\n<li>IIMs may verify eligibility at various stages of the selection process, the details of which are provided on the official IIM website.</li>
+
+
+    </string>
+
+    <string name="CAT3">CAT 2018 exam pattern is expected to be same as that of CAT 2017. The detailed pattern along with the marks allotted for each section is given in the table below:
+         \n\nThe exam will have 3 sections :
+
+
+    </string>
+    <string name="CAT4">As you know, CAT exam syllabus is divided into three sections
+         \n\n1.Verbal Ability and Reading Comprehension
+         \n\n2.Logical Reasoning and Data Interpretation
+         \n\n3.Quantitative Aptitude
+         \n\n<b>Subject 1. English or Verbal Section</b>
+
+
+    </string>
+    <string name="CAT5">1.Fill in the blanks
+         \n\n2.Verbal Reasoning
+         \n\n3.Sentence completion
+         \n\n4.Grammar
+         \n\n5.Syllogisms
+         \n\n6.Jumbled paragraphs
+         \n\n7.Para Completion and inference
+         \n\n8.Contextual usage
+         \n\n9.Foreign language words used in English
+         \n\n10.Reading Comprehension
+         \n\n11.Analogies
+         \n\n12.Sentence correction
+         \n\n13.Verbal Logic
+         \n\n14.Different usage of same word
+         \n\n15.Idioms
+         \n\n16.Para jumbles
+         \n\n17.Antonyms
+         \n\n18.One word substitution
+         \n\n<b>Subject 2. Logical reasoning and Data Interpretation Section</b>
+
+
+    </string>
+    <string name="CAT6">1.Blood Relations
+         \n\n2.Series
+         \n\n3.Proposition
+         \n\n4.Direction Sense
+         \n\n5.Coding-Decoding
+         \n\n6.Assumptions
+         \n\n7.Puzzles
+         \n\n8.Clocks and Calendars
+         \n\n9.Statements
+         \n\n10.Data Arrangement
+         \n\n11.Family Tree
+         \n\n12.Binary Logic
+         \n\n13.Seating Arrangement
+         \n\n14.Venn Diagram
+         \n\n15.Sets
+         \n\n16.Data Structures
+         \n\n17.Syllogism
+
+
+    </string>
+    <string name="CAT7">1.Tables
+         \n\n2.Pie Charts
+         \n\n3.Caselets
+         \n\n4.Bars
+         \n\n5.Line Graphs
+         \n\n6.Data Sufficiency
+         \n\n<b>Subject 3. Quantitative Aptitude Section</b>
+
+
+    </string>
+    <string name="CAT8">1.Geometry
+         \n\n2.HCF &amp; LCM
+         \n\n3.Averages
+         \n\n4.Trigonometry
+         \n\n5.Algebra
+         \n\n6.Partnership (Accounts)
+         \n\n7.Mensuration
+         \n\n8.Profit &amp; Loss
+         \n\n9.Time-Speed-Distance
+         \n\n10.Ratios and Proportion
+         \n\n11.In-equations Quadratic and linear equations
+         \n\n12.Surds and Indices
+         \n\n13.Number system
+         \n\n14.Geometric Progression
+         \n\n15.Inequalities
+         \n\n16.Work and time
+         \n\n17.Percentages
+         \n\n18.Logarithms
+
+
+    </string>
+    <string name="RRB1"><b>Railway Recruitment Board (RRB)</b> has announced openings for 89,409 vacancies of Group-D, <b>Assistant Loco Pilot (ALP) and Technicians.</b> All interested and eligible candidates who wish to apply for these job profiles can visit the official website i.e. <a href="http://indianrailways.gov.in/">indianrailways.gov.in</a> or <a href="http://rrbonlinereg.in/">rrbonlinereg.in</a>. The RRB has announced application process for 62,907 Railway group D jobs and 26,502 posts for Assistant Loco Pilot (ALP) and Technicians.
+
+     </string>
+
+
+    <string name="RRB2"><b>Number of Vacancies:</b>
+        \n\n<li>UR – 31889</li>
+        \n\n<li>OBC – 16502</li>
+        \n\n<li>SC – 9453</li>
+        \n\n<li>ST – 5061</li>
+        \n\n<li>Total – 62907</li>
+        \n\n<b>Salary:</b>
+        \n\nRs 18000 per month, Level 01 of 7th CPC Pay Matrix
+        \n\n<b>Educational Qualification:</b>
+        \n\n<li>10th pass or 10th pass plus National Apprenticeship Certificate (NAC) granted by NCVT, Or</li>
+        \n\n<li>10th pass plus ITI from institutions recognized by NCVT/SCVT</li>
+        \n\n<li>Candidates must fulfil all medical standards</li>
+        \n\n<b>Age limit:</b>
+        \n\nMinimum – 18 Years
+        \n\nMaximum – 31 Years
+        \n\n<b>Application Fee:</b>
+        \n\nFor UR/OBC Male: Rs 500/-
+        \n\nFor SC/ST/PWD and Women Candidates: Rs 250/-
+        \n\n<b>Railway Group D Exam Pattern:</b>
+        \n\nThe RRC Group D selection will be based on 3 stages as follows:
+        \n\n1.Computer Based Test (CBT)
+        \n\n2.Physical Efficiency Test (PET)
+        \n\n3.Document Verification
+        \n\nThe Computer Based Test will be the first stage of selection that will be based on the following pattern:
+
+     </string>
+
+    <string name="RRB3"><b>NOTE:</b>There is negative marking for each incorrect answer. 1/3 of the marks allotted for each question shall be deducted for the wrong answer. The questions will be of objective type with multiple choices.
+        \n\n<b>Syllabus for Computer Based Test (CBT)</b>
+        \n\nThe RRC Group D Exam consists of the following subjects:
+        \n\n<li>Mathematics</li>
+        \n\n<li>General Intelligence &amp; Reasoning</li>
+        \n\n<li>General Science</li>
+        \n\n<li>General Awareness on Current Affairs</li>
+        \n\n<b>Mathematics Syllabus</b>
+        \n\n1.Number system
+        \n\n2.BODMAS
+        \n\n3.Decimals
+        \n\n4.Fractions
+        \n\n5.LCM
+        \n\n6.HCF
+        \n\n7.Ratio &amp; Proportion
+        \n\n8.Percentages
+        \n\n9.Mensuration
+        \n\n10.Time &amp; Work
+        \n\n11.Time &amp; Distance
+        \n\n12.Simple &amp; Compound Interest
+        \n\n13.Profit &amp; Loss
+        \n\n14.Algebra
+        \n\n15.Geometry &amp; Trigonometry
+        \n\n16.Elementary Statistics
+        \n\n17.Square Root
+        \n\n18.Age Calculations
+        \n\n19.Calendar &amp; Clock
+        \n\n20.Pipes &amp; Cistern
+        \n\n<b>General Intelligence &amp; Reasoning Syllabus</b>
+        \n\n1.Analogies
+        \n\n2.Alphabetical &amp; Number Series
+        \n\n3.Coding &amp; Decoding
+        \n\n4.Mathematical operations
+        \n\n5.Relationships
+        \n\n6.Syllogism
+        \n\n7.Jumbling
+        \n\n8.Venn Diagram
+        \n\n9.Data Interpretation &amp; Sufficiency
+        \n\n10.Conclusions &amp; Decision making
+        \n\n11.Similarities &amp; Differences
+        \n\n12.Analytical Reasoning
+        \n\n13.Classification
+        \n\n14.Directions
+        \n\n15.Statement - Arguments &amp; Assumptions
+        \n\n<b>General Science Syllabus</b>
+        \n\n1.Physics
+        \n\n2.Chemistry and Life Sciences of 10 standard level
+        \n\n<b>General Awareness Syllabus</b>
+        \n\n1.Science &amp; Technology
+        \n\n2.Sports
+        \n\n3.Culture
+        \n\n4.Personalities
+        \n\n5.Economics
+        \n\n6.Politics and any other subjects of importance
+
+     </string>
+
+    <string name="RRB4"><b>Number of vacancies for Assistant Loco Pilot (ALP):</b>
+        \n\n<li>UR – 9230</li>
+        \n\n<li>OBC – 4363</li>
+        \n\n<li>SC – 2694</li>
+        \n\n<li>ST -1387</li>
+        \n\n<li>Total 17633</li>
+        \n\n<b>Number of vacancies for Technicians:</b>
+        \n\n<li>UR – 4563</li>
+        \n\n<li>OBC – 2162</li>
+        \n\n<li>SC – 1363</li>
+        \n\n<li>ST – 738</li>
+        \n\n<li>Total – 8829</li>
+        \n\n<b>Salary:</b>
+        \n\nRs.19900/- Level 02 of 7th CPC Pay Matrix
+        \n\n<b>Age limit:</b>
+        \n\nMinimum – 18 Years
+        \n\nMaximum – 28 Years
+        \n\n<b>Educational Qualification:</b>
+        \n\n<li>Degree or Diploma in Relevant Engineering Discipline Or,</li>
+        \n\n<li>HSC(10+2) with Physics and Maths</li>
+
+     </string>
+
+    <string name="RRB5"><b>First Stage CBT Syllabus</b>
+        \n\nThe questions will be of objective type with multiple choices and are likely to include question pertaining to:
+        \n\n<b>Mathematics</b>
+        \n\n1.Number system
+        \n\n2.BODMAS
+        \n\n3.Decimals
+        \n\n4.Fractions
+        \n\n5.LCM
+        \n\n6.HCF
+        \n\n7.Ratio &amp; Proportion
+        \n\n8.Percentages
+        \n\n9.Mensuration
+        \n\n10.Time &amp; Work
+        \n\n11.Time &amp; Distance
+        \n\n12.Simple &amp; Compound Interest
+        \n\n13.Profit &amp; Loss
+        \n\n14.Algebra
+        \n\n15.Geometry &amp; Trigonometry
+        \n\n16.Elementary Statistics
+        \n\n17.Square Root
+        \n\n18.Age Calculations
+        \n\n19.Calendar &amp; Clock
+        \n\n20.Pipes &amp; Cistern
+        \n\n<b>General Intelligence &amp; Reasoning Syllabus</b>
+        \n\n1.Analogies
+        \n\n2.Alphabetical &amp; Number Series
+        \n\n3.Coding &amp; Decoding
+        \n\n4.Mathematical operations
+        \n\n5.Relationships
+        \n\n6.Syllogism
+        \n\n7.Jumbling
+        \n\n8.Venn Diagram
+        \n\n9.Data Interpretation &amp; Sufficiency
+        \n\n10.Conclusions &amp; Decision making
+        \n\n11.Similarities &amp; Differences
+        \n\n12.Analytical Reasoning
+        \n\n13.Classification
+        \n\n14.Directions
+        \n\n15.Statement - Arguments &amp; Assumptions
+        \n\n<b>General Science Syllabus</b>
+        \n\n1.Physics
+        \n\n2.Chemistry and Life Sciences of 10 standard level
+        \n\n<b>General Awareness Syllabus</b>
+        \n\n1.Science &amp; Technology
+        \n\n2.Sports
+        \n\n3.Culture
+        \n\n4.Personalities
+        \n\n5.Economics
+        \n\n6.Politics and any other subjects of importance
+        \n\n<b>ALP and Technician 2nd Stage CBT:</b>
+
+
+
+    </string>
+
+
+    <string name="RRB6">Candidates will be shortlisted for 2nd Stage CBT Exam on the basis of marks obtained in First CBT Exam. 15 times of total number of vacancies will be called for 2nd Stage CBT Exam of Assistant Loco Pilot and Technician. Following are the syllabus of Second CBT Exam:
+        \n\n<b>ALP &amp; Technician Second CBT Exam Syllabus:</b>
+
+     </string>
+
+
+    <string name="RRB7"><b>Mathematics</b>
+        \n\n1.Number system
+        \n\n2.BODMAS
+        \n\n3.Decimals
+        \n\n4.Fractions
+        \n\n5.LCM
+        \n\n6.HCF
+        \n\n7.Ratio &amp; Proportion
+        \n\n8.Percentages
+        \n\n9.Mensuration
+        \n\n10.Time &amp; Work
+        \n\n11.Time &amp; Distance
+        \n\n12.Simple &amp; Compound Interest
+        \n\n13.Profit &amp; Loss
+        \n\n14.Algebra
+        \n\n15.Geometry &amp; Trigonometry
+        \n\n16.Elementary Statistics
+        \n\n17.Square Root
+        \n\n18.Age Calculations
+        \n\n19.Calendar &amp; Clock
+        \n\n20.Pipes &amp; Cistern
+        \n\n<b>General Intelligence &amp; Reasoning Syllabus</b>
+        \n\n1.Analogies
+        \n\n2.Alphabetical &amp; Number Series
+        \n\n3.Coding &amp; Decoding
+        \n\n4.Mathematical operations
+        \n\n5.Relationships
+        \n\n6.Syllogism
+        \n\n7.Jumbling
+        \n\n8.Venn Diagram
+        \n\n9.Data Interpretation &amp; Sufficiency
+        \n\n10.Conclusions &amp; Decision making
+        \n\n11.Similarities &amp; Differences
+        \n\n12.Analytical Reasoning
+        \n\n13.Classification
+        \n\n14.Directions
+        \n\n15.Statement - Arguments &amp; Assumptions
+        \n\n<b>Basic Science &amp; Engineering</b>
+        \n\n1.Engineering Drawing (Projections, Views, Drawing Instruments, Lines, Geometric figures, Symbolic Representation)
+        \n\n2.Units
+        \n\n3.Measurements
+        \n\n4.Mass Weight and Density
+        \n\n5.Work Power and Energy
+        \n\n6.Speed and Velocity
+        \n\n7.Heat and Temperature
+        \n\n8.Basic Electricity
+        \n\n9.Levers and Simple Machines
+        \n\n10.Occupational Safety and Health
+        \n\n11.Environment Education
+        \n\n12.IT Literacy
+        \n\n<b>General Awareness on Current Affairs</b>
+        \n\n1.Science &amp; Technology
+        \n\n2.Sports
+        \n\n3.Culture
+        \n\n4.Personalities
+        \n\n5.Economics
+        \n\n6.Politics and any other subjects of importance
+
+     </string>
+
+
+    <string name="JEE1">JEE Advanced is one of the toughest exams in India. Over 2.24 lakh students take it every year with only 20,000 getting a rank. JEE (Joint Entrance Exam), an all India common entrance exam for engineering, is held in two stages:
+        \n\n• JEE Main
+        \n\n• JEE Advanced
+        \n\nJEE Advanced is the second stage of the Joint Entrance Examination. You are eligible to take JEE Advanced only if you clear the cut-off for JEE Main.
+        \n\nThis examination will form the basis for admission to various bachelor’s degree programmes in IITs. IIT Kanpur is to conduct the JEE Advanced 2018 examination for admission to <b>23 IITs for 12,428 seats</b>, which include Indian School of Mines (ISM), Dhanbad. Next year onwards, the IITs will also reserve special seats for female engineering aspirants.
+
+     </string>
+
+
+    <string name="JEE2">This exam is taken after JEE Main exam by only those candidates who qualify the JEE Main exam. However, only the top 2.24 lakh candidates in JEE Main exam become eligible to appear for JEE Advanced.
+        \n\n<b>Features of JEE Advanced Exam Pattern 2018:</b>
+        \n\n•The exam is divided into two papers: Paper 1 and Paper 2 of three hours (180 minutes) duration each.
+        \n\n•Both paper 1 and 2 are compulsory for JEE Advanced.
+        \n\n•Each papers carries 54 questions in total.
+        \n\n•There will be 306 marks for both the papers in total, each paper carrying 183 marks.
+        \n\n•The question paper consists of multiple-choice and numerical answer type questions, which test comprehension skills, analytical and reasoning abilities of candidates.
+        \n\n•Candidates must carry a Blue or Black ball point pen only to the examination center.
+        \n\n•There is negative marking for both papers 1 and 2.
+        \n\n•In numerical type questions, negative marking is not applicable.
+        \n\n•The questions come from the topics covered in class 11 and class 12.
+        \n\n•Each question paper consists of three separate sections and subjects:
+        \n\n1.Mathematics
+        \n\n2.Physics
+        \n\n3.Chemistry
+
+    </string>
+
+    <string name="JEE3">In the table given below, candidates can go through the subject-wise syllabus of JEE Advanced
+        \n\n1.Chemistry
+        \n\n2.Mathematics
+        \n\n3.Physics
+        \n\n<b>Subject 1. Chemistry Section:</b> The syllabus is divided into 3 sections:
+        \n\n1.Section A - Physical Chemistry
+        \n\n2.Section B - Inorganic Chemistry
+        \n\n3.Section C - Organic Chemistry
+
+        </string>
+    <string name="JEE4">1.General topics
+        \n\n2.Gaseous and liquid states
+        \n\n3.Atomic structure and chemical bonding
+        \n\n4.Energetics
+        \n\n5.Chemical equilibrium
+        \n\n6.Electrochemistry
+        \n\n7.Chemical kinetics
+        \n\n8.Solid state
+        \n\n9.Solutions
+        \n\n10.Surface chemistry
+        \n\n11.Nuclear chemistry
+
+
+        </string>
+    <string name="JEE5">1.Isolation/preparation and properties of the following non-metals
+        \n\n2.Preparation and properties of the following compounds
+        \n\n3.Transition elements (3d series)
+        \n\n4.Preparation and properties of the compounds
+        \n\n5.Ores and minerals
+        \n\n6.Extractive metallurgy
+        \n\n7.Principles of qualitative analysis
+
+        </string>
+    <string name="JEE6">1.Concepts
+        \n\n2.Preparation, properties, and reactions of alkanes
+        \n\n3.Preparation, properties, and reactions of alkenes and alkynes
+        \n\n4.Reactions to benzene
+        \n\n5.Phenols
+        \n\n6.Characteristic reactions
+        \n\n7.Carbohydrates
+        \n\n8.Amino acids and peptides
+        \n\n9.Properties and uses of some important polymers
+        \n\n10.Practical organic chemistry
+        \n\n<b>Subject 2. Mathematics Section</b>
+
+        </string>
+    <string name="JEE7">1.Algebra
+        \n\n2.Trigonometry
+        \n\n3.Analytical geometry
+        \n\n4.Differential calculus
+        \n\n5.Integral calculus
+        \n\n6.Vectors
+        \n\n<b>Subject 3. Physics Section</b>
+
+
+
+        </string>
+    <string name="JEE8">1.General
+        \n\n2.Mechanics
+        \n\n3.Thermal physics
+        \n\n4.Electricity and magnetism
+        \n\n5.Optics
+        \n\n6.Modern physics
+
+        </string>
+    <string name="NEET1">This year, National Testing agency (NTA) will conduct the <b>NEET 2019</b> (National Eligibility cum Entrance Test) which was previously held by CBSE every year. NTA is organizing NEET 2019 exam for admissions to undergraduate medical programmes such as MBBS, BDS and Ayush courses offered by Indian Medical Colleges.
+        \n\nAlthough NTA is conducting <b>NEET 2019</b> exam for UG courses, but there is no changes in pattern of the examination. This year NEET 2019 will take place through pen and paper mode only.
+        \n\nAs per the most recent information regarding NEET 2019, the candidates must know that this year also, exam will be conducted one time only. To relieve the undue pressure from students, NTA decided to organize this exam in May 2019 as usual
+
+    </string>
+
+
+    <string name="NEET2">The application process will be held through online mode only. The Application form for NEET 2019 will be available on the official website:<a href="https://nta.ac.in/"> nta.ac.in.</a>  Candidates can apply for the same by filling in the mandatory fields mentioned in the form. Any invalid detail can lead to the rejection of your candidature. Fill in every detail carefully as no chances will be given to correct or re-edit the same. Candidates are advised to take out the printed copy of the payment receipt of the fee they paid for the application.
+
+    </string>
+
+    <string name="NEET3">• Age limit for the unreserved category candidate: 17 to 25 years.
+        \n\n• Age limit for reserved category candidates: 17 to 30 years.
+        \n\n• Candidates should be a citizen of India.
+
+
+
+
+    </string>
+
+    <string name="NEET4">The application fee must be paid through online mode only, i.e. Debit/Credit card, UPI or E-Wallet. The application fee is non-refundable.
+    </string>
+
+
+    <string name="NEET5">As per the previous year, the CBSE has designed an Exam Pattern for NEET. This year the pattern of examination will remain same even though NTA will conduct the NEET 2019.
+        \n\n•<b>Exam Mode :</b> Mode of the examination will be pen and paper based.
+        \n\n•<b>Type of Question Paper :</b> Objective Type (MCQ).
+        \n\n•<b>Duration :</b> The duration of exam will be of 3 hours.
+        \n\n•<b>Number of Questions :</b> In total 180 questions.
+
+    </string>
+
+    <string name="NEET6"><b>Marking Scheme :</b>
+        \n\n•For every correct answer, 4 marks will be awarded.
+        \n\n•Negative marking will be there, so for every wrong answer, 1 mark will be deducted.
+        \n\n•If any question is unanswered, neither will be awarded nor will be deducted.
+
+
+    </string>
+
+
+    <string name="NEET7">The syllabus for NEET 2019 will help you to score well in the examination. It covers all the important topic from the point of view of the exam. If you prepare according to the curriculum designed by the conducting body then chances will be higher in order to clear the examination.
+
+
+    </string>
+
+    <string name="NEET8"><b><u>Class XI Syllabus</u></b>
+        \n\n1.Electrostatics
+        \n\n2.Current Electricity
+        \n\n3.Optics
+        \n\n4.Electromagnetic Induction and Alternating Currents
+        \n\n5.Electromagnetic Waves
+        \n\n6.Magnetic Effects of Current and Magnetism
+        \n\n7.Electronic Devices
+        \n\n8.Atoms and Nuclei
+        \n\n9.Dual Nature of Matter and Radiation
+        \n\n<b><u>Class XII Syllabus</u></b>
+        \n\n1.Physical world and measurement
+        \n\n2.Kinematics
+        \n\n3.The motion of System of Particles and Rigid Body
+        \n\n4.Work, Energy and Power
+        \n\n5.Laws of Motion
+        \n\n6.The behavior of Perfect Gas and Kinetic Theory
+        \n\n7. Properties of Bulk Matter
+        \n\n8.Thermodynamics
+        \n\n9.Gravitation
+        \n\n10.Oscillations and Waves
+    </string>
+
+    <string name="NEET9"><b><u>Class XI Syllabus</u></b>
+        \n\n1.Some Basic Concepts of Chemistry
+        \n\n2.Structure of Atom
+        \n\n3.Classification of Elements and periodicity in properties
+        \n\n4.Hydrogen
+        \n\n5.States of Matter : Gases and Liquids
+        \n\n6.Chemical Bonding and Molecular Structure
+        \n\n7.Equilibrium
+        \n\n8.Redox Reactions
+        \n\n9.Thermodynamics
+        \n\n10.s-Block Element (Alkali and Alkaline earth metals)
+        \n\n11.Some p-Block Elements
+        \n\n12.Environmental Chemistry
+        \n\n13.Hydrocarbons
+        \n\n14.Organic Chemistry- Some Basic Principles and Techniques
+        \n\n<b><u>Class XII Syllabus</u></b>
+        \n\n1.Solid State
+        \n\n2.Solutions
+        \n\n3.Electrochemistry
+        \n\n4.Chemistry in Everyday Life
+        \n\n5.Surface Chemistry
+        \n\n6.General Principles and Processes of Isolation of Elements
+        \n\n7.p- Block Elements
+        \n\n8.d and f Block Elements
+        \n\n9.Biomolecules
+        \n\n10.Aldehydes, Ketones and Carboxylic Acids
+        \n\n11.Alcohols, Phenols, and Ethers
+        \n\n12.Haloalkanes and Haloarenes
+        \n\n13.Organic Compounds Containing Nitrogen
+        \n\n14.Coordination Compounds
+        \n\n15.Polymers
+        \n\n16.Chemical Kinetics
+    </string>
+
+    <string name="NEET10"><b><u>Class XI Syllabus</u></b>
+        \n\n1.Diversity in Living World
+        \n\n2.Structural Organization in Animals and Plants
+        \n\n3.Plant Physiology
+        \n\n4.Human physiology
+        \n\n5.Cell Structure and Function
+        \n\n<b><u>Class XII Syllabus</u></b>
+        \n\n1.Reproduction
+        \n\n2.Ecology and environment
+        \n\n3.Biology and Human Welfare
+        \n\n4.Biotechnology and Its Applications
+        \n\n5.Genetics and Evolution
+    </string>
+
+
+    <string name="CLAT1"><b>Common Law Admission Test (CLAT)</b> is a law entrance exam held across India after students finish Class 12. Students can gain admission to <b>National Law Universities (NLUs)</b> and other prominent law schools after clearing this entrance test.
+        \n\nEver since CLAT began in 2008, it has remained one of the most popular law entrances in India. Every year more than 35,000 students test their knowledge to gain admission to 19 NLUs.
+        \n\n<a href=" ">Click here</a> for online mock papers free for CLAT.
+
+    </string>
+    <string name="CLAT2">•Candidates need the following:
+        \n\na.Class XII or equivalent: 45% marks - for candidates from Unreserved /OBC /Specially-Abled Persons (SAP) and other categories.
+        \n\nb.in case of candidates from SC/ST categories, need 40% marks.
+        \n\n•Qualifying examination (10+2) result need to be submitted by the candidate at the time of admission. Failure to do would lead to disqualification.
+
+    </string>
+    <string name="CLAT3">•<b>English Vocabulary:</b> Antonyms, Synonyms and Analogies.
+        \n\n•<b>English Proficiency:</b> Idioms and Phrases, One Word Substitution, Sentence Improvement, Rearrangement of Sentence in Paragraph, Rearrangement of Words in Sentence, Fill in the blanks and Cloze Tests.
+        \n\n•<b>English Usage Errors:</b> Common Errors, Spotting Errors, Inappropriate Usage of Words and Spelling Mistakes (English Usage), Use of Correct Word.
+        \n\n•<b>English Comprehension:</b> Paragraph will be given. Questions will be asked from that paragraph. Understand the para and answer the questions accordingly.
+
+    </string>
+    <string name="CLAT4">•Activities of national and international importance. Current happenings in the field of science, technology, economics, sports, persons and places, static gk, etc.
+
+    </string>
+    <string name="CLAT5">•Events of National and International importance also covering current events in area of
+         \n\n•<b>Arithmetic (Number Theory):</b> Number Systems, Surds and Indices, Square Roots, Fractions and Decimals, HCF and LCM, Simplification, Approximations, Ratio and Proportion, Average and Logarithms.
+         \n\n•<b>Commercial Maths:</b> Interest, Percentage, Profit and Loss, Partnership and Discounts.
+         \n\n•<b>Mensuration:</b> Areas and Volumes.
+     </string>
+    <string name="CLAT6">•Study of law, research aptitude and problem solving ability are the areas tested here.
+         \n\n•International Law, Criminal Law, Indian Constitution, Legal Terms, Legal Maxims, Family Law, Contracts and Torts.
+     </string>
+    <string name="CLAT7">•<b>Reasoning Tests:</b> Direction and Distance Test, Analogy Test, Classification (Odd Man Out) Test, Coding Decoding Test, Number Test, Series Test, Relationships Test, Alphabet Test, Ranking Tests and Time Sequence Test.
+         \n\n•<b>Logic Tests:</b> Statements Assumptions, Statements Arguments, Statements Conclusions and Statements Action
+     </string>
+    <string name="CLAT8">Candidates can check below the <a href="https://law.careers360.com/articles/clat-exam-pattern">CLAT exam pattern 2018</a> for both undergraduate and post graduate law programmes.
+         \n\n1.CLAT 2018 will be an online entrance test of 120 minutes, i.e., two hours.
+         \n\n2.The online paper of CLAT 2018 will have as many as 200 questions.
+         \n\n3.The questions will be of objective nature with multiple-choice options.
+         \n\n4.Each question will carry one mark.
+         \n\n5.Candidates will have to choose the one correct one among the given options.
+         \n\n6.Each correct answer in CLAT 2018 paper will be awarded 1 mark and for every incorrect response, 0.25 marks each will be deducted from the total scored marks.
+         \n\n7.The non-attempted questions will be awarded with zero marks.
+         \n\n<b>CLAT UG Subject-wise distribution of questions and marks</b>
+
+     </string>
+
+
+    <string name="JMAIN1">Main is the popular engineering entrance exam in India. It is conducted by National Testing Agency (NTA) for admission to B.E./B.Tech &amp; B.Arch courses. On the basis of JEE Main, candidates are admitted to NITs, CFTIs and other engineering institutions. JEE Main is also the eligibility test for JEE Advanced which offers admission to IITs &amp; ISM. Students can get complete information about JEE Main 2018 such as answer key, result, cut off, counselling, etc.
+    </string>
+
+
+    <string name="JMAIN2">1.Candidates of JEE (Main) – 2018 have to apply online only. There is no printed application form for JEE (Main).
+        \n\n2.Adhaar card or Adhaar number is mandatory for JEE(Main)
+        \n\n3.Candidate(s) may check the status of their application on JEE (Main) website.
+    </string>
+
+
+    <string name="JMAIN3">The Paper-1 (B.E./B. Tech.) of JEE(Main)will be conducted in two separate modes:
+        \n\n1.Offline (Pen and Paper Based Examination) mode and
+        \n\n2.Online (Computer Based Examination) mode
+        \n\nThe Paper-2 (B. Arch./B. Planning.) of JEE (Main) will be conducted only in Pen and Paper based examination mode.
+    </string>
+
+
+    <string name="JMAIN4">Paper 1 (B.E./ B. Tech.) - Objective type with equal weightage to Physics, Chemistry &amp; Mathematics
+        \n\nPaper 2 (B.Arch./ B.Planning) -
+        \n\n         Mathematics – Part I have objective type questions
+        \n\n         Aptitude Test – Part II have objective type questions
+        \n\n         Drawing Test – Part III have questions to test drawing aptitude
+    </string>
+
+
+    <string name="JMAIN5"><b>Online Method -</b> payment can be made through debit or credit card.
+        \n\n<b>Offline Method -</b> payment can be done through the Challan of Syndicate/Canara/ICICI Bank.
+    </string>
+
+
+    <string name="JMAIN6">Here we are providing the eligibility criteria to appear for JEE Main 2018:
+        \n\n•<b>Qualifying Exam:</b> Students should have passed the 12th or equivalent exam in 2016 and 2017 with five subjects from any recognized board.
+        \n\n•<b>Appearing Candidates:</b> Students appearing in the 12th examination in 2018 are also eligible.
+        \n\n•<b>Subjects:</b> Students must have the Physics &amp; Mathematics as compulsory subjects along with one of the Chemistry/Biotechnology/Biology/ Technical Vocational subject.
+        \n\n•<b>Age Limit:</b> Students born on or after 1st October 1993 are eligible to apply (five-year relaxation is given for reserved categories.
+        \n\n•<b>Percentage:</b> There is no minimum marks are needed to appear in the JEE Main exam. For admission to IITs, NITs, CFTIs, students must have secured 75% marks (65% for SC/ST) or be in the top 20 percentile.
+        \n\n•<b>Attempt:</b> Students can appear only three times for JEE Main. JEE Advanced can be attempted maximum 2 times in consecutive years
+        \n\n•<b>Aadhaar Card:</b> All India candidates must have Aadhaar Card to apply for JEE Main.
+    </string>
+
+
+    <string name="JMAIN7" formatted="false"><b>Percentage Marks:</b> To be eligible for admission in IITs, NITs, CFTIs, candidates should have obtained <b>75% marks</b> in 12th examination or must be in the top 20 percentile in the 12th examination of respective boards. The qualifying marks for SC/ST will be 65%.
+    </string>
+
+
+    <string name="JMAIN8">•<b>Course:</b> Paper-1 is conducted for admission to <b>B.E./B.Tech</b> courses.
+         \n\n•<b>Exam Mode:</b> The exam mode for paper 1 will be offline (PBT) as well as online (CBT). Candidates can opt any one of the modes as per their suitability.
+         \n\n•<b>Subjects:</b> The paper-1 will consist of <b>Physics, Chemistry and Mathematics</b> subjects.
+         \n\n•<b>Number of Questions:</b> 30 questions will be asked from each subject with total of 90 questions comprising of 360 marks.
+         \n\n•<b>Type of Questions:</b> Only objective type questions will be asked in Paper-1.
+         \n\n•<b>Language:</b> For all exam cities, the question paper medium choice will be English &amp; Hindi (except exam centre cities in Gujarat, Daman &amp; Diu and Dadra and Nagar Haveli where choices for question paper will be English, Hindi and Gujarati). The choice for question paper should be exercised while filling up the application form.
+         \n\n•<b>Exam Duration:</b> The time duration will be <b>3 hours</b>.
+         \n\n•<b>Marking Scheme:</b> Candidates will be provided with <b>+4 marks</b> for each correct answer.
+         \n\n•<b>Negative Marking:</b> In case of wrong answer, one mark will be deducted.
+     </string>
+
+
+    <string name="JMAIN9">•<b>Course:</b> Paper-2 is conducted for admission to <b>B.Arch/B.Planning</b> courses.
+         \n\n•<b>Exam Mode:</b> The exam mode for this paper will be offline (PBT) mode.
+         \n\n•<b>Number of Questions:</b> 30 questions will be asked in Mathematics (Part-1), 50 questions in aptitude test (Part-2) and 2 questions in drawing (Part-3) comprising of total 390 marks.
+         \n\n•<b>Type of Questions:</b> The Mathematics and Aptitude test section will contain objective type questions. Drawing test will be subjective.
+         \n\n•<b>Language:</b> For all exam cities, the question paper medium choice will be English &amp; Hindi (except exam centre cities in Gujarat, Daman &amp; Diu and Dadra and Nagar Haveli where choices for question paper will be English, Hindi and Gujarati).
+         \n\n•<b>Exam Duration:</b> The time duration will be <b>3 hours</b>.
+         \n\n•<b>Marking Scheme:</b> +4 marks for each correct answer.
+         \n\n•<b>Negative Marking:</b> In case of wrong answer, one mark will be deducted.
+     </string>
+
+    <string name="JMAIN10">1.Sets, Relations and Functions
+        \n\n2.Complex Numbers and Quadratic Equations
+        \n\n3.Matrices and Determinants
+        \n\n4.Mathematical Reasoning
+        \n\n5.Mathematical Induction
+        \n\n6.Permutations and Combinations
+        \n\n7.Sequences and Series
+        \n\n8.Lbw, Continuity and Differentiability
+        \n\n9.Integral Calculus
+        \n\n10.Differential Equations
+        \n\n11.Binomial Theorem and its simple Applications
+        \n\n12.Three Dimensional Geometry
+        \n\n13.Vector Algebra
+        \n\n14.Co-ordinate Geometry
+        \n\n15.Statistics and Probability
+        \n\n16.Trigonometry
+     </string>
+
+    <string name="JMAIN11">1.Physics and Measurement
+          \n\n2.Kinematics
+          \n\n3.Thermodynamics
+          \n\n4.Work, Energy and Power
+          \n\n5.Rotational Motion
+          \n\n6.Gravitation
+          \n\n7.Laws of Motion
+          \n\n8.Properties of Solids and Liquids
+          \n\n9.Electronic Devices
+          \n\n10.Kinetic Theory of Gases
+          \n\n11.Oscillations and Waves
+          \n\n12.Communication systems
+          \n\n13.Current Electricity
+          \n\n14.Magnetic effects of Current and Magnetism
+          \n\n15.Electromagnetic Induction and Alternating Currents
+          \n\n16.Electromagnetic Waves
+          \n\n17.Optics
+          \n\n18.Dual nature of Matter and Radiation
+          \n\n19.Electrostatics
+          \n\n20.Atoms and Nuclei
+      </string>
+    <string name="JMAIN12">1.Physical Chemistry
+          \n\n2.Some Basic Concepts in Chemistry
+          \n\n3.States of Matter
+          \n\n4.Atomic Structure
+          \n\n5.Chemical Bonding and Molecular Structure
+          \n\n6.Chemical Thermodynamics
+          \n\n7.Solutions
+          \n\n8.Equilibrium
+          \n\n9.Redox Reactions and Electrochemistry
+          \n\n10.Chemical kinetics
+          \n\n11.Surface Chemistry
+          \n\n12.Organic Chemistry
+          \n\n13.Purification and Characterization of Organic Compounds
+          \n\n14.Hydrocarbons
+          \n\n15.Chemistry in Everyday Life
+          \n\n16.Principles related to Practical Chemistry
+          \n\n17.Organic compounds containing Halogens
+          \n\n18.Organic compounds containing Oxygen
+          \n\n19.Organic compounds containing Nitrogen
+          \n\n20.Polymers
+          \n\n21.Some Basic Principles of Organic Chemistry
+          \n\n22.Biomolecules
+          \n\n23.Inorganic Chemistry
+          \n\n24.Classification of elements and Periodicity in properties
+          \n\n25.Hydrogen
+          \n\n26.Block elements (Alkali and Alkaline Aarth Metals)
+          \n\n27.Block elements Group 13 to Group 18 elements
+          \n\n28.D and F Block elements
+          \n\n29.Co-ordination Compounds
+          \n\n30.Environmental Chemistry
+          \n\n31.General Principles and Processes of Isolation of Metals
+      </string>
+    <string name="JMAIN13"><b>Part I:</b> Awareness of persons, places, Buildings, Materials. Objects, Texture related to Architecture and build—environment. Visualising three dimensional objects from two dimensional drawings. Visualising. different sides of three dimensional objects. Analytical Reasoning Mental Ability (Visual, Numerical and Verbal).
+          \n\n<b>Part II: Three dimensional - perception:</b> Understanding and appreciation of scale and proportion of objects, building forms and elements, colour texture, harmony and contrast. Design and drawing of geometrical or abstract shapes and patterns in pencil. Transformation of forms both 2-D and 3-D union, substraction, rotation, development of surfaces and volumes, Generation of Plan, elevations and 3-D views of objects. Creating two dimensional and three dimensional compositions using given shapes and forms.
+      </string>
+
+
+    <string name="CA1">The Chartered Accountants of India (ICAI) conducts Chartered Accountant Common Proficiency Test, commonly known as CA CPT Exam. Itis an entry level test for Chartered Accountancy Course, which is held twice a year in June and December for registered students of Common Proficiency Course (CPC).
+    </string>
+
+
+    <string name="CA2">Candidates who plan to appear for CA CPT 2018 in June 2018, they should have already registered with ICAI in CPC course. Only registered candidates are eligible to apply for CA CPT 2018 June session examination. Following are the eligibility criteria of CA CPT 2018.
+        \n\n•Candidates must have passed their 10th and 12th level qualifying examination from a recognised board of education or equivalent examination.
+        \n\n•Candidates must have registered with ICAI for CPC course before June 30, 2017, to be eligible for appearing in CPT exam.
+        \n\n•Candidates who have completed bachelor or masters degree in commerce with at least 55% marks are exempted from appearing in CA CPT 2018.
+        \n\n•Candidates holding bachelor or masters degree in a stream other than commerce must have obtained at least 60% marks in aggregate of all subjects are also exempted from appearing in the entry level test.
+    </string>
+
+
+    <string name="CA3">CA CPT 2018 will be conducted on June 17, 2018 in morning shift from 10:30 AM to 12:30 PM and evening shift from 2:00 PM to 4:00 PM. CA CPT exam will comprise of objective type questions of 200 marks. Candidates must note that there is a negative marking of 0.25 or one-fourth for every wrong answer. Four subjects whose test will be taken in two sessions of CA CPT exam are mentioned in table below -
+    </string>
+
+
+    <string name="CA4">1.Theoretical Framework
+        \n\n2.Accounting Process
+        \n\n3.Bank Reconciliation Statement
+        \n\n4.Depreciation accounting
+        \n\n5.Preparation of Final Accounts for Sole Proprietors
+        \n\n6.Accounting for Special Transactions
+        \n\n7.Partnership Accounts
+        \n\n8.Introduction to Company Accounts
+    </string>
+
+
+    <string name="CA5">1.<b>The Indian Contract Act, 1872:</b> An overview of Sections 1 to 75 covering the general nature of contract, consideration, other essential elements of a valid contract, performance of contract and breach of contract
+        \n\n2.<b>The Sale of Goods Act, 1930:</b> Formation of the contract of sale – Conditions and Warranties – Transfer of ownership and delivery of goods – Unpaid seller and his rights
+        \n\n3.<b>The Indian Partnership Act, 1932:</b> General Nature of Partnership – Rights and Duties of Partners – Registration and dissolution of a firm
+    </string>
+
+
+    <string name="CA6">1.Micro Economics
+        \n\n2.Introduction to Micro Economics
+        \n\n3.Theory of Demand and Supply
+        \n\n4.Theory of Production and Cost
+        \n\n5.Price Determination in Different Markets
+        \n\n6.Indian Economic Development
+        \n\n7.Indian Economy – A Profile
+        \n\n8.Select Aspects of Indian Economy
+        \n\n9.Economic Reforms in India
+        \n\n10.Money and Banking
+    </string>
+
+
+    <string name="CA7">1.Ratio and Proportion, Indices, Logarithms
+        \n\n2.Equations
+        \n\n3.Inequalities
+        \n\n4.Simple and Compound Interest including annuity - Applications
+        \n\n5.Basic concepts of Permutations and Combinations
+        \n\n6.Sequence and Series – Arithmetic and Geometric Progressions
+        \n\n7.Sets, Functions and Relations
+        \n\n8.Limits and Continuity â”€ Intuitive Approach
+        \n\n9.Basic concepts of Differential and Integral Calculus
+        \n\n10.Statistical description of data
+        \n\n1.Measures of Central Tendency and Dispersion
+        \n\n12.Correlation and Regression
+        \n\n13.Theoretical Distributions
+        \n\n14.Sampling Theory
+        \n\n15.Index Numbers
+    </string>
+    <string name="SCGL1">SSC conducts <b>SSC-CGL</b> every year to recruits staff for various posts in the various Ministries and Departments of the Government of India and in its Sub-ordinate Offices.
+        \n\n<b>SSC CGL Recruitment 2018</b>
+        \n\nThe Staff Selection Commission (SSC) conducts the Combined Graduate Level (CGL) Exam for the recruitment of Grade <b>“B” and “C” category</b> posts in various Government Ministries, Departments, and Offices. The exam is held in 4 stages called Tiers. The first two are online, the third is descriptive in nature and the fourth is DEST/CPT(Data Entry Speed Test)/(computer proficiency test).DEST is for the post of Tax Assistant while CPT will be conducted for all those candidates who have applied for CSS (Central Secretariat Services) and MEA (Ministry of External Affairs).
+        \n\nThe entire process of registration and communication happens online through the official website of SSC CGL. Candidates must qualify each stage of the SSC CGL exam to proceed to the next one, before being finally selected.
+    </string>
+    <string name="SCGL2">This is CBE (computer based examination). There are 4 sections in the Tier 1 exam of SSC CGL 2018, with 100 questions which account for a total of 200 marks. The subject-wise details are given below:
+    </string>
+    <string name="SCGL3"><b>Note:</b>
+        \n\n•There is a negative marking of 0.5 marks in all sections.
+        \n\n•The duration of exam is 80 minutes for candidates who are visually handicapped.
+    </string>
+
+    <string name="SCGL4">This is CBE (computer based examination). There are 4 sections in the Tier 2 exam of SSC CGL 2018, with 100 questions which account for a total of 200 marks. The subject-wise details are given below:
+     </string>
+    <string name="SCGL5">This is a (DES)descriptive exam and is conducted offline. Candidates need to write Essay/Letter/Application/Precis. This is to test the written skills of the candidates in English/Hindi. The best way to prepare for the same is to read lots of articles from various newspapers. Focus on the Intro. and conclusion of the Essay. Apart from this, you need to be well aware of the pattern of Letter and Application.
+         \n\nThe time duration is 60 minutes and carries 100 marks.
+         \n\nThe exam duration is 80 minutes for candidates who are visually handicapped or suffer from cerebral palsy.
+     </string>
+    <string name="SCGL6">The Tier 4 of SSC CGL Exam 2018 comprises DEST/CPT. These are required for certain government posts.
+         \n\n1.<b>DEST (Data Entry Speed Test):</b> For the post of Tax Assistant (Central Excise and Income Tax).
+         \n\nAny Candidate who takes CPT does not require to appear for DEST as the part 1 of CPT (Typing) will be considered for DEST evaluation.
+         \n\n<b>Requirement:</b> 8000 key depression per hour, that is 2000 key depression per 15 minutes.
+         \n\n<b>Relaxation:</b> VH Candidates will be allowed 20 minutes.
+         \n\n2.<b>CPT (Computer Proficiency Test):</b>
+         \n\n•CSS(Assistant)
+         \n\n•MEA(Assistant)
+         \n\n•Inspector (Central Excise) [CBEC]
+         \n\n•Inspector (Preventive officer)[CBEC]
+         \n\n•Inspector (Examiner)[CBEC]
+     </string>
+    <string name="SCGL7">1.Classification
+         \n\n2.Analogy
+         \n\n3.Coding-Decoding
+         \n\n4.Paper Folding Method
+         \n\n5.Matrix
+         \n\n6.Word Formation
+         \n\n7.Venn Diagram
+         \n\n8.Direction and Distance
+         \n\n9.Blood Relations
+         \n\n10.Series
+         \n\n11.Verbal Reasoning
+         \n\n12.Non-Verbal Reasoning
+     </string>
+
+
+    <string name="SCGL8">1.Static General Knowledge (Indian History, Culture etc.)
+        \n\n2.Science
+        \n\n3.Current Affairs
+        \n\n4.Sports
+        \n\n5.Books and Authors
+        \n\n6.Important Schemes
+        \n\n7.Portfolios
+        \n\n8.People in News
+     </string>
+    <string name="SCGL9">1.Simplification
+        \n\n2.Interest
+        \n\n3.Averages
+        \n\n4.Percentage
+        \n\n5.Ratio and Proportion
+        \n\n6.Problem on Ages
+        \n\n7.Speed, Distance and Time
+        \n\n8.Number System
+        \n\n9.Mensuration
+        \n\n10.Data Interpretation
+        \n\n11.Time and Work
+        \n\n12.Algebra
+        \n\n13.Trigonometry
+        \n\n14.Geometry
+     </string>
+    <string name="SCGL10">1.Reading Comprehension
+         \n\n2.Fill in the Blanks
+         \n\n3.Spellings
+         \n\n4.Phrases and Idioms
+         \n\n5.One word Substitution
+         \n\n6.Sentence Correction
+         \n\n7.Error Spotting
+         \n\n<b>SSC-CGL Syllabus for tier - II:</b>
+     </string>
+    <string name="SCGL11">1.Simplification
+         \n\n2.Interest
+         \n\n3.Averages
+         \n\n4.Percentage
+         \n\n5.Ratio and Proportion
+         \n\n6.Speed, Distance and Time
+         \n\n7.Number System
+         \n\n8.Mensuration
+         \n\n9.Data Interpretation
+         \n\n10.Time and Work
+         \n\n11.Algebra
+         \n\n12.Trigonometry
+         \n\n13.Geometry
+         \n\n14.Data Sufficiency
+     </string>
+
+    <string name="SCGL12">1.Reading Comprehension
+        \n\n2.Spelling
+        \n\n3.Fill in the Blanks
+        \n\n4.Phrases and Idioms
+        \n\n5.One Word Substitution
+        \n\n6.Sentence Correction
+        \n\n7.Error Spotting
+        \n\n8.Cloze Test
+        \n\n9.Para Jumbles
+        \n\n10.Synonyms-Antonyms
+        \n\n11.Active-Passive Voice
+    </string>
+
+
+    <string name="SCGL14">1.Collection and Representation of Data
+        \n\n2.Measure of Dispersion
+        \n\n3.Measure of Central Tendency
+        \n\n4.Moments, Skewness and Kurtosis
+        \n\n5.Correlation and Regression
+        \n\n6.Random Variables
+        \n\n7.Sampling Theory
+        \n\n8.Analysis and Variance
+        \n\n9.Time Series Analysis
+        \n\n10.Index Number
+    </string>
+
+    <string name="SCGL15"><b>Finance and Accounting</b>
+        \n\n1.Fundamental Principles
+        \n\n2.Financial Accounting
+        \n\n3.Basic Concepts of Accounting
+        \n\n4.Self-Balancing Ledger
+        \n\n5.Error Spotting and Correction
+        \n\n<b>Economics and Governance</b>
+        \n\n1.Comptroller and Auditor General of India
+        \n\n2.Finance Commission
+        \n\n3.Theory of Demand and Supply
+    </string>
+
+
+    <string name="JAT1">Delhi University, with the establishment of <b>Shaheed Sukhdev College of Business Studies,</b> also referred to as CBS, in 1987, started its flagship Undergraduate Management Program, Bachelor of Business Studies, which in the year 2013 was renamed as <b>Bachelor of Management Studies (BMS).</b>
+        \n\nWithin a short span of 25 years, CBS became a synonym for quality management education after class XII and later other DU colleges followed suit with introduction of courses like BMS, BBA-FIA and BBE.
+    </string>
+
+    <string name="JAT2" formatted="false">To be eligible for Delhi University Management Programs, candidate must have secured <b>60% (General); 54% (OBC); 55% (CPW/PWD); Pass(SC/ST) with English and Mathematics</b> as core subjects in Class XII. There is no age limit.
+    </string>
+
+    <string name="JAT3">Joint Admission Test is designed to test one’s aptitude on the areas of Basic Language Comprehension, Numerical Ability, Awareness and Reasoning skills.
+    </string>
+
+    <string name="JAT4">•DU JAT 2018 will be conducted for 2 hours wherein candidates need to attempt 120 questions in the time allotted.
+        \n\n•Candidates must note that the answers should be marked only in Blue or Black Ball Point Pen.
+        \n\n•The question paper will carry Multiple Choice Questions where candidates need to select only one correct answer.
+        \n\n•The candidate will be allotted 3 marks for every correct answer and there will be a negative marking of 1 mark for every incorrect answer.
+        \n\n•If the candidate choose more than one options as an answer, it shall be considered as an incorrect answer.
+        \n\n<b>Selection Procedure</b>
+        \n\nIn order to get admission in Delhi University, the student must write Joint Admission Test (JAT) conducted by Delhi University every year. There may be a second stage involving Personal Interview too.
+        \n\n<b>Intake</b>
+        \n\nBMS- 599; BFIA-136; BBE- 483
+    </string>
+
+    <string name="JAT5">1.Basic question of inferential and visual reasoning
+        \n\n2.Set of questions from DI covering topics of pie chart, graphs.
+        \n\n3.Time and Work
+        \n\n4.Quadrilaterals
+        \n\n5.Number system
+        \n\n6.Square roots
+        \n\n7.Average
+        \n\n8.Fractions and decimals
+        \n\n9.Profit and Loss
+        \n\n10.Discount
+        \n\n11.Ratio and Proportion
+        \n\n12.Mathematical Series etc.
+    </string>
+
+    <string name="JAT6">1.Verbal reasoning and verbal analogy
+        \n\n2.Letter series
+        \n\n3.Coding and decoding
+        \n\n4.Classification
+        \n\n5.Direction and distance
+        \n\n6.Number series
+        \n\n7.Time sequence
+        \n\n8.Missing characters
+        \n\n9.Diagram
+        \n\n10.Word sequence
+        \n\n11.Ranking
+        \n\n12.Alphabets
+        \n\n13.Analogy
+        \n\n14.Syllogism
+        \n\n15.Terms and Prepositions
+    </string>
+
+    <string name="JAT7">1.Comprehension at paragraph and sentence levels
+        \n\n2.Identification of Common errors
+        \n\n3.Fill in the blanks
+        \n\n4.One word substitution
+        \n\n5.Grammar and usage
+        \n\n6.Vocabulary-word formation
+        \n\n7.Synonyms and Antonyms
+        \n\n8.Pairing of words
+    </string>
+
+    <string name="JAT8">1.General history
+        \n\n2.Geography
+        \n\n3.Science
+        \n\n4.Politics
+        \n\n5.Computers
+        \n\n6.Economics
+        \n\n7.Current affairs
+    </string>
+
+
+    <string name="BANK1">In India, the organization that conducts the examination for various posts in the Public Sector Banks, Regional Rural Banks, Co-operatives, etc. is <b>IBPS (Institute of Banking Personnel Selection).</b>
+        \n\nThe starting level or beginner position of any Bank officer is <b>Probationary Officer (PO)</b> where a person has to work for nearly 1–2 years of Probation Period.
+        \n\nSpeed, Accuracy and Confidentiality are the factors that IBPS PO tests in a candidate. The online examination will be held in two phases: preliminary and main. Students can take the help of mock papers online to understand the pattern and prepare for the test.
+    </string>
+
+
+    <string name="BANK2">•For IBPS CWE PO exam: The candidate must have a Graduate Degree in any of these streams – BA, BSc, B.Com, B.Tech, etc. This should be from a Govt. of India recognized university.
+        \n\n•During registration for the test, the percentage of marks obtained in Graduation must be written.
+        \n\n•<b>Computer Literacy:</b> Since the exam is held online, knowledge of computer function is essential.
+        \n\n•<b>Language Proficiency:</b> Candidates should have verbal and written proficiency in official language of the State/UT. The candidate should be able to read, write and speak the language.
+    </string>
+
+
+    <string name="BANK3">Following individuals are allowed to participate in the exam:
+        \n\n1.Indian Citizens
+        \n\n2.Subject of Nepal or Bhutan
+        \n\n3.Tibetan Refugee who came to India before 1st January 1962 with the intention of permanent settlement
+        \n\n4.Person of Indian Origin (PIO) who has migrated from East African countries of Zaire, Kenya, Tanzania, Uganda, Zambia, Ethiopia, Malawi, or Burma, Pakistan, Sri Lanka, Vietnam with the intention of permanent settlement in India
+        <b>Note:</b> A certificate of eligibility issued by Govt. of India, is needed from candidates belonging to the category 2, 3, 4.
+    </string>
+
+    <string name="BANK4"><b>Note</b>: A certificate of eligibility issued by Govt. of India, is needed from candidates belonging to the category 2, 3, 4.
+    </string>
+
+    <string name="BANK5">•3562 Vacant Posts are available
+        \n\n•Vacant Positions: Probationary Officers/Management Trainee (PO/MT)
+        \n\nParticipating Banks and Category-wise Vacancies
+
+    </string>
+
+    <string name="BANK6"><b>Bank PO Prelims Syllabus 2018</b>
+        \n\n•Objective Type Questions
+        \n\n•100 marks exam
+        \n\n•Total time for the exam will be 1 hour
+        \n\n•Candidates need to solve 100 questions
+        \n\nPrelims will include total 3 subjects such as:
+        \n\n•Quantitative Aptitude
+        \n\n•English
+        \n\n•Reasoning
+        \n\n<b>Bank PO Mains Syllabus 2018</b>
+        \n\n•200 marks exam
+        \n\n•Total time for the exam will be 2 hours
+        \n\n•Total 200 questions in the paper
+        \n\nMains exam has subjects like:
+        \n\n•Quantitative Aptitude
+        \n\n•English
+        \n\n•Reasoning
+        \n\n•General Awareness
+        \n\n•Computers
+        \n\n<b>Note:</b>The subjects of English, Mathematics and Reason will have different levels of difficulty for mains and prelims
+        \n\n<b>Subject 1: Quantitative Aptitude</b>
+        \n\n<b>Topics:</b>
+        \n\n1.Ratio and Proportion
+        \n\n2.Averages
+        \n\n3.Time &amp; Work
+        \n\n4.Speed, Distance &amp; Time
+        \n\n5.Percentages
+        \n\n6.Partnership
+        \n\n7.Volume and Surface Area
+        \n\n8.Permutations and Combinations
+        \n\n9.Simple and Compound Interest
+        \n\n10.Quadratic Equations
+        \n\n11.Probability
+        \n\n12.Profit, Loss and Discount
+        \n\n<b>Subject 2:</b> Reasoning
+        \n\n<b>Topics:</b>
+        \n\n1.Syllogism
+        \n\n2.Coding Decoding
+        \n\n3.Blood Relations
+        \n\n4.Series Test
+        \n\n5.Number, Ranking &amp; Time Sequence
+        \n\n6.Direction sense Test
+        \n\n7.Decision Making Test
+        \n\n8.Input / Output
+        \n\n9.Sitting Arrangements
+        \n\n10.Puzzles
+        \n\n<b>Subject 3: English</b>
+        \n\n<b>Topics:</b>
+        \n\n1.Error Correction
+        \n\n2.Sentence Rearrangement
+        \n\n3.Fill in the Blanks with Modals, Articles etc.
+        \n\n4.Comprehension
+        \n\n5.Answering questions based on Unseen Passages
+        \n\n6.Vocabulary
+        \n\n7.Synonyms
+        \n\n8.Grammar
+        \n\n9.Reading Comprehension
+        \n\n<b>Subject 4: General Awareness</b>
+        \n\n<b>Topics:</b>
+        \n\n1.Current Affairs related to National and International issues of last 6 months
+        \n\n2.History of Indian Banking system
+        \n\n3.Overview of Indian Financial System
+        \n\n4.Recent Credit and Monetary Policies
+        \n\n5.Introduction to National financial institutions like RBI, SEBI, IRDA, FSDC etc and of
+        \n\n6.International organizations like IMF, World Bank, ADB, UN etc.
+        \n\n7.Abbreviations and Economic terminologies
+        \n\n8.Banking Terms
+        \n\n9.Important Government Schemes on capital &amp; money market
+        \n\n<b>Subject 5:</b> Computer Knowledge
+        \n\n<b>Topics:</b>
+        \n\n1.Basics of Hardware and Software
+        \n\n2.Windows operating system basics
+        \n\n3.Internet Terms and Services
+        \n\n4.Basic Functionalities of MS-Office (MS-word, MS-Excel, MS-PowerPoint)
+        \n\n5.History of computers
+        \n\n6.Networking and Communication
+        \n\n7.Database basics
+        \n\n8.Basics of Hacking, Security Tools and Viruses
+    </string>
+    <string name="detail">Exam Details:- <a href="">Click here</a></string>
+
+
+    <string name="ibps1"><b>IBPS (Institute of Banking Personnel Selection)</b> conducts a common written exam or CWE every year for the clerical cadre in multiple banks all over the country. All public sector banks use CWE as a base to fill the vacancies for this post.
+        \n\nThe recruitment process of IBPS Clerk CWE occurs in two phases:
+        \n1. Preliminary Examination
+        \n2. Main Examination
+        \n\nStudents are required to qualify both these exams to get selected for the post of clerical cadre in most of the premier Public Sector Banks. The main thing to note here is that there is no interview process required for the selection of candidate after the mains exam. 100% weightage is given to the result of mains exam result.
+    </string>
+
+    <string name="ibps2"><b>Phase-1: IBPS Clerk Preliminary Examination</b>
+        \nThe preliminary exam of IBPS Clerk CWE is an online exam testing a candidate on the basis of their aptitude, intellect and English. There are three sections in total and the candidate must clear the cut off of each section to proceed to the mains exam round. Candidates are required to solve the question paper in the time frame of 1 hour. The composite mark of the paper is 100 and the passing marks is decided by IBPS that is likely to change every year depending on the level of difficulty of the exam.
+    </string>
+
+    <string name="ibps3"><b>Phase-2: IBPS Clerk Mains Examination</b>
+        \nMajor changes have been observed in the Exam Pattern of IBPS Clerk 2017 Exam. The total duration and the number of questions asked in Mains Examination of IBPS Clerk 2017 Exam have been revised. In the latest update by IBPS, IBPS Clerk Mains Exam will now constitute of 190 questions that needs to be completed in a time frame of 160 minutes.
+    </string>
+
+    <string name="ibps4">The candidate must fulfill the following two criteria to be eligible for the IBPS Clerk Exam:
+        \n\n<b>Age Limit:</b> The candidate must be 20 Years to 28 Years. The final criteria for IBPS Clerk Exam 2018 will be released along with the official notification.
+        \n\n<b>Educational Qualification:</b> A candidate must possess the minimum qualification of Graduation in any discipline from a recognized University or any equivalent qualification recognized as such by the Central Government. The candidate should have passed in English as one of the subjects at SSC/ HSC/Intermediate/ Graduation level. Candidate should possess certificate in proof of passing the qualifying examination.
+    </string>
+
+
+    <string name="ibps5">The category wise fee structure for IBPS Clerk online application is given below. Fee/Intimation charges once paid will NOT be refunded on any account nor can it be held in reserve for any other examination or selection. The application fee must be paid online itself. To know more check the complete guide for IBPS Clerk Application
+    </string>
+
+    <string name="ibps6">1.Simplification
+        \n\n2.Number System
+        \n\n3.Bar diagram
+        \n\n4.Pie chart
+        \n\n5.Line Graphs
+        \n\n6.Quadratic Equations
+        \n\n7.Ratio &amp; Proportion
+        \n\n8.Percentage
+        \n\n9.Averages
+        \n\n10.Profit, Loss and Discount
+        \n\n11.Mixtures &amp; Allegations
+        \n\n12.Simple Interest &amp; Compound Interest
+        \n\n13.Time and work
+        \n\n14.Time &amp; Distance
+        \n\n15.Boats and Streams
+        \n\n16.Geometry-Triangle and centers
+        \n\n17.Geometry-Circle, chords and tangents
+        \n\n18.Geometry-Quadrilaterals
+        \n\n19.Probability
+        \n\n20.Problem on ages
+        \n\n21.Right Circular Cone
+        \n\n22.Right Circular Cylinder
+        \n\n23.Sphere
+        \n\n24.Hemispheres
+    </string>
+    <string name="ibps7">1.Seating Arrangement
+        \n\n2.Puzzles
+        \n\n3.Alphanumeric Series
+        \n\n4.Syllogism - statements
+        \n\n5.Series test
+        \n\n6.Venn Diagrams
+        \n\n7.Coding Decoding
+        \n\n8.Ranking/Alphabet test
+        \n\n9.Blood Relation
+        \n\n10.Direction sense test
+        \n\n11.Mathematical test
+        \n\n12.Odd man out
+        \n\n13.Classification
+        \n\n14.Paper folding
+        \n\n15.Mirror images
+        \n\n16.Water images
+    </string>
+    <string name="ibps8">1.Reading Comprehension
+        \n\n2.complete the paragraph
+        \n\n3.Fill in the blanks
+        \n\n4.Choose correct sentence
+        \n\n5.Para Jumbles
+    </string>
+
+
+</resources>

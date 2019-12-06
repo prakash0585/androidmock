@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Home"
+            android:id="@+id/tvhome"
+            android:layout_marginRight="5dp"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Attempt Test"
+            android:id="@+id/tvtest"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About NEET"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET1"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Important Dates"
+                    android:textStyle="bold"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="NEET 2019"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="From"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="To"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Online submission of application forms"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="01-Nov-2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="30-Nov-2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="Admit Card"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="15-Apr-2019"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                            <TextView
+                                android:text="04-May-2019"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="NEET 2019 Exam Date"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="05 May 2019"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="NEET 2019 Result"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="05 Jun 2019"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+
+
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NEET Eligibility Criteria"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET3"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NEET 2018 Application Form"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET2"
+                    android:id="@+id/ntt5"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Application Fee"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="5dip">
+                    <TextView
+                        android:text="S. No."
+                        android:textStyle="bold"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        android:typeface="serif"></TextView>
+
+                    <TextView
+                        android:text="Categories"
+                        android:textStyle="bold"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        android:typeface="serif"></TextView>
+
+                    <TextView
+                        android:text="Application Fees"
+                        android:textStyle="bold"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        android:typeface="serif"></TextView>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:text="1"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        ></TextView>
+                    <TextView
+                        android:text="General/OBC Candidates"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        ></TextView>
+
+                    <TextView
+                        android:text="Rs. 1,400"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        ></TextView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+                    android:layout_width="match_parent">
+
+
+                    <TextView
+                        android:text="2"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        ></TextView>
+                    <TextView
+                        android:text="SC/ST/PH Candidates"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        ></TextView>
+                    <TextView
+                        android:text="Rs. 750"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+
+                        ></TextView>
+                </TableRow>
+
+
+
+               </TableLayout>
+                </HorizontalScrollView>
+
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET4"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+              <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Exam Pattern"
+                                android:textStyle="bold"
+                                android:padding="3dp"
+                                android:background="@color/blue"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:padding="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/NEET5"
+                                android:textColor="@color/black" />
+
+
+                  <HorizontalScrollView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+                      <TableLayout
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+
+
+
+
+                          <TableRow
+                              android:layout_height="wrap_content"
+                              android:layout_width="match_parent"
+                              android:padding="5dip">
+                              <TextView
+                                  android:text="Sections"
+                                  android:textStyle="bold"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  android:typeface="serif"></TextView>
+
+                              <TextView
+                                  android:text="Number of Questions"
+                                  android:textStyle="bold"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  android:typeface="serif"></TextView>
+
+                              <TextView
+                                  android:text="Maximum Marks"
+                                  android:textStyle="bold"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  android:typeface="serif"></TextView>
+
+                          </TableRow>
+
+
+                          <TableRow
+                              android:layout_height="wrap_content"
+                              android:padding="5dip"
+                              android:layout_width="match_parent">
+
+                              <TextView
+                                  android:text="Physics"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="45"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+
+                              <TextView
+                                  android:text="180"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+
+                          </TableRow>
+                          <TableRow
+                              android:layout_height="wrap_content"
+                              android:padding="5dip"
+                              android:layout_width="match_parent">
+
+
+                              <TextView
+                                  android:text="Chemistry"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="45"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="180"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                          </TableRow>
+                          <TableRow
+                              android:layout_height="wrap_content"
+                              android:padding="5dip"
+                              android:layout_width="match_parent">
+
+                              <TextView
+                                  android:text="Zoology"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="45"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+
+                              <TextView
+                                  android:text="180"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+
+                          </TableRow>
+                          <TableRow
+                              android:layout_height="wrap_content"
+                              android:padding="5dip"
+                              android:layout_width="match_parent">
+
+
+                              <TextView
+                                  android:text="Botany"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="45"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="180"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                          </TableRow>
+                          <TableRow
+                              android:layout_height="wrap_content"
+                              android:padding="5dip"
+                              android:layout_width="match_parent">
+
+
+                              <TextView
+                                  android:text="Total"
+                                  android:paddingRight="10dp"
+                                  android:textStyle="bold"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="180"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                              <TextView
+                                  android:text="720"
+                                  android:paddingRight="10dp"
+                                  android:textColor="@color/black"
+
+                                  ></TextView>
+                          </TableRow>
+
+
+                      </TableLayout>
+                  </HorizontalScrollView>
+                  <TextView
+                      android:padding="5dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/NEET6"
+                      android:textColor="@color/black" />
+
+
+              </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NEET Syllabus"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET7"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Physics"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET8"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chemistry"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET9"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Biology (Botany + Zoology)"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEET10"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

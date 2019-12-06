@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Home"
+            android:id="@+id/tvhome"
+            android:layout_marginRight="5dp"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Attempt Test"
+            android:id="@+id/tvtest"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About CAT (Common Admission Test)"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CAT1"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Important Dates"
+                    android:textStyle="bold"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="Events"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                                                       <TextView
+                                android:text="Dates (Announced)"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="CAT Online Registration Start"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="1st Week of August 2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="CAT Online Registration Close"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Sep-18"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Release of Admit Card"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="3rd Week of October 2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="CAT Exam Date"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="25th November 2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="Results Declaration"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Second week of January 2019"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+
+                        </TableRow>
+
+
+
+
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CAT Eligibility Criteria"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CAT2"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Exam Pattern"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CAT3"
+                    android:textColor="@color/black" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="Sections"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Number of Questions"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Sectional Duration"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Verbal Reasoning and Reading Comprehension"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="34"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="60 Minutes"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Quantitative Aptitude"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="34"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="60 Minutes"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Data Interpretation and Logical Reasoning"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="32"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="60 Minutes"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Syllabus:"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                   <TextView
+                       android:padding="5dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/CAT4"
+                       android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Topics:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CAT5"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Topics of Logical Reasoning Section:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CAT6"
+                    android:textColor="@color/black" />
+
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Topics of Data Interpretation Section:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CAT7"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Topics:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CAT8"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

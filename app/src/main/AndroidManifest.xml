@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sabakuch.epaper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <application
+        android:name=".application.SabakuchEmockApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".activity.ChangePasswordActivity"></activity>
+        <activity android:name=".activity.SelectOtpActivity" />
+        <activity android:name=".activity.OtpActivity" />
+        <activity android:name=".activity.ForgotPasswordActivity" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="sabakuch.com"
+                    android:pathPrefix="/elearning/mock/"
+                    android:scheme="https" />
+                <!-- android:pathPattern=".*" -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ContactUsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" /> <!-- G+ Integration -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" /> <!-- to use login or share add this -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:theme" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider347116518958297"
+            android:exported="true" /> <!-- twitter Integration activities -->
+        <!--
+            <activity
+            android:name="com.sabakuch.epaper.twitter.TwitterActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.sabakuch.Twitter_oAuth"
+                    android:scheme="oauth" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sabakuch.epaper.twitter.OAuthActivity" />
+        -->
+        <!-- Firebase Notifications -->
+        <service android:name=".notification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".notification.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service> <!-- ./Firebase Notifications -->
+        <activity
+            android:name=".activity.InstructionInstActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/institute_name"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="institute_name"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Main2Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/bankpo"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="bankpo"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CACpt"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/cacpt"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="cacpt"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WebVew" />
+        <activity android:name=".activity.NewActivity" />
+        <activity android:name=".activity.Main3Activity" />
+        <activity
+            android:name=".activity.ExpandbleListView"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.CACPT2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/s2cacpt"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="s2cacpt"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CAT"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/cat"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="cat"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.NTSE"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/ntse"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="ntse"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.KVPY"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/kvpy"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="kvpy"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CHEMISTRY"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/technicians"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="technicians"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.JEEADV"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/jeeadv"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="jeeadv"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CLAT"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/clat"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="clat"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GK"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/gk"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="gk"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CURRENTAFFAIR"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/currentaffair"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="currentaffair"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.NEET"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/neet"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="neet"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.JEEMAIN"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/jeemain"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="jeemain"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionBank"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insbank"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insbank"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionCACPT"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/inscacpt"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="inscacpt"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestBank"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/banktest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="banktest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestCacpt"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/testcacpt"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="testcacpt"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionCACPT2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/instructioncacpt2"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="instructioncacpt2"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestCacpt2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/10cacpt2test"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="10cacpt2test"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionCAT"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/inscat"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="inscat"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionNTSE"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insntse"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insntse"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionKVPY"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/inskvpy"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="inskvpy"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionCHEMISTRY"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/instechnicians"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="instechnicians"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionCLAT"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insclat"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insclat"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionJEEADV"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insjeeadv"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insjeeadv"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionJEEMAIN"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insmain"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insmain"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionGK"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insgk"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insgk"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionNEET"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insneet"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insneet"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionCURRENT"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/inscurrent"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="inscurrent"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestCat"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/9cattest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="9cattest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestKvpy"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/8kvpytest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="8kvpytest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestNtse"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/7ntsetest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="7ntsetest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestClat"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/6clattest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="6clattest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestChemistry"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/5technicianstest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="5technicianstest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestJeeMain"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/4jeemaintest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="4jeemaintest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestJeeAdv"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/3jeeadvtest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="3jeeadvtest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestGk"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/2gktest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="2gktest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestNeet"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/1neettest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="1neettest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestCurrent"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/currenttest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="currenttest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlineResult"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/result"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="result"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlineInstActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/instituteonline"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="instituteonline"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DUBMS"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/dubms"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="dubms"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestDUBMS"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/15testdubms"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="15testdubms"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionDUBMS"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insdubms"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="insdubms"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.PaymentWeb" />
+        <activity
+            android:name=".activity.InstructionSSC"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/instssc"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="instssc"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SSC"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/ssc"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="ssc"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestSSC"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/16ssctest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="16ssctest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionPolice"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/insPolice"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="inspolice"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PoliceConstable"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/policeconstable"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="policeconstable"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestPolice"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/17policetest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="17policetest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestSkill"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/18skilltest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="18skilltest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionSkill"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/instskill"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="instskill"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.CommonSkillTest"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/commonskilltest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="commonskilltest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OnlinetestAIIMS"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/19aiimstest"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="19aiimstest"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.InstructionAIIMS"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/instaiims"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="instaiims"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AIIMS"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="www.sabakuch.com"
+                    android:pathPrefix="/aiims"
+                    android:scheme="http" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="aiims"
+                    android:scheme="sabakuch" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.PaymentCustom" />
+        <activity android:name=".activity.OtpSignup" />
+        <activity android:name=".activity.PaymentWebb" />
+        <activity android:name=".activity.PaymentPaid" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

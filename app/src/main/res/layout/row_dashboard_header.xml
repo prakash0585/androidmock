@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_hotel_overview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:textColor="@color/text_color"
+        android:paddingLeft="12dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_button_corner_bg"
+     />
+  <!--  <FrameLayout
+        android:id="@+id/fl_hotel_overview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tv_hotel_overview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <ImageView
+            android:id="@+id/ivArrowUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/ivArrowDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:src="@drawable/down_arrow_icon"
+            android:visibility="gone" />
+    </FrameLayout>
+-->
+    <!--
+         <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/horizontal_view" />
+    -->
+
+</LinearLayout>

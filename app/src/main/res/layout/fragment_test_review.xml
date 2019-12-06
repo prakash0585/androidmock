@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp"
+                    >
+                        <TextView
+                            android:id="@+id/tv_exam_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Exam Name :-"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone"
+                            android:textColor="@color/gray"/>
+                        <TextView
+                            android:id="@+id/tv_subject"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Subject :"
+                            android:textSize="12sp"
+                            android:visibility="gone"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+                        <TextView
+                            android:id="@+id/tv_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+
+                        <TextView
+                            android:id="@+id/tv_time_taken"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/time_taken_"
+                            android:textSize="12sp"
+                            android:textStyle="bold"/>
+
+                <!--        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center_vertical"
+                            android:padding="5dp"
+                            android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/time_taken"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="3dp"/>
+                                <TextView
+                                    android:id="@+id/tv_time_taken"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="00:00:00"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="3dp"/>
+
+                        </LinearLayout>-->
+                      <!--  <TextView
+                            android:id="@+id/tv_duration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Duration :-"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tv_total_marks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Marks :"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+                        <TextView
+                            android:id="@+id/tv_obtained_marks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Obtained Marks :"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray"/>
+                </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:background="@color/light_gray"
+            android:scrollbars="vertical" />
+
+        <ListView
+            android:id="@+id/lstReview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:background="@color/light_gray"></ListView>
+
+</LinearLayout>

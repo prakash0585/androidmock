@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Home"
+            android:id="@+id/tvhome"
+            android:layout_marginRight="5dp"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Attempt Test"
+            android:id="@+id/tvtest"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About CA-CPT Session-2"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CA1"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Important Dates"
+                    android:textStyle="bold"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="Events"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Dates (Announced)"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Online Application Form of CA CPT 2018 begins"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="April 4, 2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="Last date of filling CA CPT application form 2018 and making the payment (without late fee)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="April 26, 2018 (11:59 PM)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Last date and time for New User Creation"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="May 3, 2018 (5:30 PM)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Last date of filling CA CPT application form 2018 and making the payment (with late fee)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="May 3, 2018 (11:59 PM)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="Last date of receipt of printout of filled CA CPT application by ICAI offices"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="May 7, 2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Application Correction Window I (without fee)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="First week of May 2018* (for one week)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Application Correction Window I (with fee)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Fourth week of May to June 9, 2018*"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Admit Card"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="First week of June 2018*"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Date of CA CPT Examination"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="June 17, 2018"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Result declaration"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Mid of July 2018*"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CA-CPT Exam Eligibility Criteria"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CA2"
+                    android:textColor="@color/black" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Application Fee 2018"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="S. No."
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Category"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text="Application Fee"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="1"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="For exam centres in India only"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="INR 1,000/-"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="2"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="For exam centres in Kathmandu (Nepal)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="INR 1,700/-"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+                        </TableRow>
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="3"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="For exam centres in Abu Dhabi, Doha, Dubai and Muscat"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="US$ 300"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CA-CPT 2018 Exam Pattern"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CA3"
+                    android:textColor="@color/black" />
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="CA-CPT Exam"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Details"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Exam Mode"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Pencil Paper"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="Test Medium"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="English or Hindi"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+
+                    </TableLayout>
+                </HorizontalScrollView>
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="Shift"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Sections"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text="Marks"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Timings"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="First session of CA CPT"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Sec A - Fundamentals of Accounting"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="40"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="10:30 am - 12:30 pm (two hours)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text=""
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Sec B - Mercantile Laws"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="50"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text=""
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Second session of CA CPT"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Sec C - General Economics"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="40"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="2:00 pm - 4:00 pm (two hours)"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text=""
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Sec D - Quantitative Aptitude"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="50"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text=""
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="Total"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="4 sections"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="200"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="4 hours"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+                    </TableLayout>
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CA-CPT 2018 Cutoff"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="Section"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Sectional cutoff for CPT"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+                            <TextView
+                                android:text="Overall cutoff for CPT"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Fundamentals of Accounting"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="30% of 60 marks"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="50% marks"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="Mercantile Laws"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="30% of 40 marks"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text=""
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="General Economies"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="30% of 50 marks"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text=""
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="Quantitative Aptitude"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="30% of 50 marks"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                            <TextView
+                                android:text=""
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                    </TableLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CA-CPT 2018 Syllabus:"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Fundamentals of Accounting"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CA4"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Mercantile Laws"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CA5"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="General Economies"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CA6"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Quantitative Aptitude"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CA7"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

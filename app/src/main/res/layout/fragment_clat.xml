@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Home"
+            android:id="@+id/tvhome"
+            android:layout_marginRight="5dp"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Attempt Test"
+            android:id="@+id/tvtest"
+            android:background="#f0ad4e"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About CLAT"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/clat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CLAT1"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="National Law Universties (NLUs) that accept CLAT score:"
+                    android:textStyle="bold"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:padding="5dip">
+                            <TextView
+                                android:text="National Law University"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Location"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                            <TextView
+                                android:text="Intake#"
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                android:typeface="serif"></TextView>
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="National Law School of India University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Bangalore"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                            <TextView
+                                android:text="80"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="NALSAR University of Law"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Hyderabad"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="120"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="National Law Institute University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Bhopal"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="128"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="WB National University of Juridical Sciences"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Kolkata"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                            <TextView
+                                android:text="133"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+
+                            <TextView
+                                android:text="National Law University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Jodhpur"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="115"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Hidayatullah National Law University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Raipur"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="187"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Gujarat National Law University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Gandhinagar"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="187"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Ram Manohar Lohia National Law University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Lucknow"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="178"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Rajiv Gandhi National University of Law"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Patiala"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="196"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Chankaya National Law University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Patna"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="140"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="National University of Advanced Legal Studies"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Kochi"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="68"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="National Law University Odisha"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Cuttak"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="180"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="National University of Study and Research in Law"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Ranchi"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="120"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="National Law University and Judicial Academy"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Guwahati"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="60"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Damodaram Sanjivayya National Law University	"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Vishakhapatnam"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="120"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Tamil Nadu National Law School"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Tiruchirappalli"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="110"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Maharashtra National Law University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Mumbai"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="60"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_width="match_parent">
+
+                            <TextView
+                                android:text="Maharashtra National Law University"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="Nagpur"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                            <TextView
+                                android:text="60"
+                                android:paddingRight="10dp"
+                                android:textColor="@color/black"
+
+                                ></TextView>
+                        </TableRow>
+
+
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CLAT 2018 Eligibility:"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CLAT2"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Syllabus:"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="English including Comprehension"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CLAT3"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="General Knowledge and Current Affairs"
+                    android:textColor="@color/black" />
+
+                     <TextView
+                         android:padding="5dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/CLAT4"
+                         android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Mathematics"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CLAT5"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Legal Aptitude"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CLAT6"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Logical Reasoning"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CLAT7"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CLAT 2018: Test Pattern"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CLAT8"
+                    android:autoLink="web"
+                    android:textColor="@color/black" />
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:padding="5dip">
+                        <TextView
+                            android:text="Subjects"
+                            android:textStyle="bold"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:text="No. of Questions"
+                            android:textStyle="bold"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:text="Marks"
+                            android:textStyle="bold"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            android:typeface="serif"></TextView>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Elementary Mathematics with Numerical Ability"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="20"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+
+                        <TextView
+                            android:text="20"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:layout_width="match_parent">
+
+
+                        <TextView
+                            android:text="English including Comprehension"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="40"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="40"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="General knowledge and Current Affairs"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="50"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="50"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Legal Aptitude"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="50"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+
+                        <TextView
+                            android:text="50"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:layout_width="match_parent">
+
+
+                        <TextView
+                            android:text="Logical Reasoning"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="40"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                        <TextView
+                            android:text="40"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/black"
+
+                            ></TextView>
+                    </TableRow>
+
+</TableLayout>
+                    </HorizontalScrollView>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CLAT PG Subject-wise distribution of questions and marks"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:textColor="@color/black" />
+
+
+
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+
+
+                            <TableRow
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:padding="5dip">
+                                <TextView
+                                    android:text="Subjects"
+                                    android:textStyle="bold"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    android:typeface="serif"></TextView>
+
+                                <TextView
+                                    android:text="No. of Questions"
+                                    android:textStyle="bold"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    android:typeface="serif"></TextView>
+
+                                <TextView
+                                    android:text="Marks"
+                                    android:textStyle="bold"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    android:typeface="serif"></TextView>
+
+                            </TableRow>
+
+
+                            <TableRow
+                                android:layout_height="wrap_content"
+                                android:padding="5dip"
+                                android:layout_width="match_parent">
+
+                                <TextView
+                                    android:text="Constitutional Law"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+                                <TextView
+                                    android:text="50"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+
+                                <TextView
+                                    android:text="50"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+
+
+
+                            </TableRow>
+                            <TableRow
+                                android:layout_height="wrap_content"
+                                android:padding="5dip"
+                                android:layout_width="match_parent">
+
+
+                                <TextView
+                                    android:text="Jurisprudence"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+                                <TextView
+                                    android:text="50"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+                                <TextView
+                                    android:text="50"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+                            </TableRow>
+                            <TableRow
+                                android:layout_height="wrap_content"
+                                android:padding="5dip"
+                                android:layout_width="match_parent">
+
+                                <TextView
+                                    android:text="Law of Contracts, Law of Torts, Criminal Law, International Law, Family Law, Property Law, Intellectual Property Law, etc"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+                                <TextView
+                                    android:text="50"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+                                <TextView
+                                    android:text="50"
+                                    android:paddingRight="10dp"
+                                    android:textColor="@color/black"
+
+                                    ></TextView>
+                            </TableRow>
+
+
+                        </TableLayout>
+                    </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

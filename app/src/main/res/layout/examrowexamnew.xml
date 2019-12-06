@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/listexm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="#2d3b9a"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="days left"
+                android:textColor="@drawable/text_color" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvName12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sets used"
+                android:textColor="@drawable/text_color" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

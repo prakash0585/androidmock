@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "363144709691",
+    "firebase_url": "https://sabakuch-e-paper.firebaseio.com",
+    "project_id": "sabakuch-e-paper",
+    "storage_bucket": "sabakuch-e-paper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363144709691:android:a1aca9c18ad13c77",
+        "android_client_info": {
+          "package_name": "com.sabakuch.epaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363144709691-8rfn07r283ill9p5p1psq4am8k2dagj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAztAInzPPBmttDDm8_aOquBnB0TzLAwV8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

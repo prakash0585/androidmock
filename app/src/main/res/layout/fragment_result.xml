@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:clickable="true"
+    android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:background="@color/light_green">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    >
+                        <TextView
+                            android:id="@+id/tv_result_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wow! you are brilliant!"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/red"
+                            android:visibility="gone"
+                            android:textAppearance="?android:textAppearanceLarge"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp"
+                            android:padding="5dp"
+                            android:background="@drawable/white_button_bg"
+                            >
+                                <TextView
+                                    android:id="@+id/tv_start_date"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Start Date :"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_start_time"
+                                    android:layout_width="match_parent"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:layout_height="wrap_content"
+                                    android:text="Start time :"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_end_date"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="End Date :"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_end_time"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="End time :"
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/white_button_bg"
+                            >
+                                <TextView
+                                    android:id="@+id/tv_total_questions"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Total Questions :"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_marks"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Marks :"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_negative_marks"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Negative Marks :"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_time_taken"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Time Taken :"
+                                    />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/white_button_bg"
+                            >
+                                <TextView
+                                    android:id="@+id/tv_correct"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Correct :"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_incorrect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="InCorrect :"
+                                    />
+                            <!--    <TextView
+                                    android:id="@+id/tv_partially_correct"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Partially Correct :- 0"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_incorrect"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="InCorrect :- 3"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_unanswered"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="UnAnswered :- 0"
+                                    />-->
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tv_test_review"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/click_here_for_test_review"
+                            android:gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:padding="8dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="right|center_vertical"
+                            android:background="@drawable/orange_button_selector"/>
+                </LinearLayout>
+        </ScrollView>
+</LinearLayout>

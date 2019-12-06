@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sabakuch.epaper.activity.Main3Activity"
+    tools:showIn="@layout/app_bar_main3">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rty"/>
+
+    <TextView
+         android:gravity="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSTITUTE NAME"/>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vinayadm"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Finish"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000000">
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exam Name"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Left"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Duration"/>
+    </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_block"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

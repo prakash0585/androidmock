@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swiperefresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/generalLinear1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="Username"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edGeneralEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_drawable"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Email"
+                    android:inputType="textWebEmailAddress"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="3dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/fa_edit" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/generalLinear2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edGeneralFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edGeneralLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textWebEmailAddress"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/generalLinear3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edGeneralMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:hint="Mobile Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:paddingLeft="5dp"
+                android:visibility="gone"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_drawable"
+                android:padding="10dp">
+
+                <Spinner
+                    android:id="@+id/spCountryName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null" />
+
+                <TextView
+                    android:id="@+id/tvCountryArrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/fa_caret_down"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_drawable"
+                android:padding="10dp">
+
+                <Spinner
+                    android:id="@+id/spState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvStateArrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/fa_caret_down"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_drawable"
+                android:padding="10dp">
+
+                <Spinner
+                    android:id="@+id/spCityName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvCityArrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/fa_caret_down"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/generalLinear4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edGeneralAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:hint="Address 1"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp"></EditText>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/generalLinear5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/edGeneralAddress2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:hint="Address 2"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_drawable"
+                android:padding="5dp">
+
+                <Spinner
+                    android:id="@+id/spTimeZone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null" />
+
+                <TextView
+                    android:id="@+id/tvTimeArrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/fa_caret_down"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/generalLinear6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:id="@+id/generalRelative1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tvDOB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date Of Birth" />
+
+                <RadioGroup
+                    android:id="@+id/rg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDOB"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbEnable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="Enable"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbDisable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="Disable"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/linearDob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rg1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvUser_Dob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_drawable"
+                        android:hint="yyyy-mm-dd"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="15sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/Usercalender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/fa_calendar_check_o"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/generalRelative2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender" />
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvGender"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_text_drawable"
+                    android:padding="10dp">
+
+                    <Spinner
+                        android:id="@+id/spGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:entries="@array/Gender" />
+
+                    <TextView
+                        android:id="@+id/tvGenderArrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/fa_caret_down"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25sp" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#50c6c6"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="EDUCATION" />
+
+        <RelativeLayout
+            android:id="@+id/generalRelativeEducation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+
+            <EditText
+                android:id="@+id/edtEducationInstitude"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:hint="Educational Institute"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edtDegree"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@+id/edtEducationInstitude"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:hint="Degree"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/generalLinear7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtEducationInstitude"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <EditText
+                    android:id="@+id/edtGrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_drawable"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:hint="Grade"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtStartYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_drawable"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:hint="Start Year"
+                    android:maxLength="4"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtEndYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_drawable"
+                    android:ems="10"
+                    android:gravity="left"
+                    android:hint="End Year"
+                    android:maxLength="4"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtStream"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/generalLinear7"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_drawable"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Stream of study"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_login_button_bg"
+            android:gravity="center"
+            android:text="SAVE"
+            android:textColor="@color/white" />
+        <!--
+             <Button
+            android:id="@+id/SettingSaveGeneral"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#50c6c6"
+            android:text="SAVE" />
+
+        -->
+    </LinearLayout>
+</ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

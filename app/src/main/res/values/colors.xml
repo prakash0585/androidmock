@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00806E</color>
+    <color name="colorPrimaryDark">#2D665C</color>
+    <color name="colorAccent">#2D665C</color>
+    <color name="black">#000000</color>
+    <color name="theme">#50C6C6</color>
+
+    <color name="text_color">#434847</color>
+    <color name="brown">#1F1F1F</color>
+    <color name="blue_theme">#50C6C6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_green_circular_text">#DBF1EE</color>
+    <color name="light_green">#BCE3D7</color>
+    <color name="white_green">#F2FFFE</color>
+    <color name="red">#F5393A</color>
+    <color name="dark_orange">#FF481A</color>
+    <color name="red_login_button">#F5393A</color>
+    <color name="_green">#2AAB03</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#0389AB</color>
+    <color name="mustard_color">#AB7903</color>
+    <color name="purple">#9502D2</color>
+    <color name="gray">#777777</color>
+    <color name="light_gray">#B9B9B9</color>
+    <color name="light_gray_border">#D9D9D9</color>
+    <color name="orange">#E4A44A</color>
+    <color name="light_gray_bg">#EEEEEE</color>
+    <color name="gray_edittext_bg">#B1B3A8</color>
+    <color name="dark_gray_edittext_border">#767970</color>
+    <color name="hint_color">#7E837C</color>
+    <color name="dark_text_color">#676E67</color>
+    <color name="light_pink">#EFB4B3</color>
+    <color name="red_footer">#FF2C01</color>
+    <color name="orange_footer">#FF7300</color>
+    <color name="blue_footer">#0000FE</color>
+    <color name="purple_footer">#AA00FF</color>
+    <color name="yellow">#FFCC00</color>
+    <integer-array name="androidcolors">
+        <item>@color/blue_footer</item>
+        <item>@color/red_footer</item>
+        <item>@color/yellow</item>
+        <item>@color/_green</item>
+        <item>@color/purple</item>
+        <item>@color/orange_footer</item>
+    </integer-array>
+
+</resources>

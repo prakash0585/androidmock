@@ -1,0 +1,20 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <com.daimajia.androidviewhover.BlurLayout
+            android:id="@+id/blur_layout"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_paper"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="125dp" />
+        </com.daimajia.androidviewhover.BlurLayout>
+
+
+
+</RelativeLayout>
